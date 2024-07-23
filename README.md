@@ -6,12 +6,13 @@
 ## 目录
 - 动力学
   - [蛇形工况](#todo)
-  - [鱼钩测试](#todo)
+  - [鱼钩工况](#todo)
   - [双移线工况](#todo)
+- 主车控制
 - 传感器
   - [车道线传感器](#todo)
   - [IMU传感器](#todo)
-- 主车控制
+- 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
   - [与Autoware联合仿真](https://github.com/wobuzhuchele/PanoSim-Autoware)
