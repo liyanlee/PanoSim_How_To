@@ -18,4 +18,4 @@
   - [与Vissim联合仿真](https://github.com/liyanlee/PanoSim_Vissim_Bridge)
 
 ## 版权
-许可证遵循 [Apache License 2.0协议]. 更多细节请访问 [LICENSE](https://gitee.com/wobuzhuchele/panosim-autoware/blob/master/Autoware/LICENSE).
+许可证遵循 [Apache License 2.0协议]. 更多细节请访问 [LICENSE](https://github.com/liyanlee/PanoSim_How_To/blob/main/LICENSE.txt).
