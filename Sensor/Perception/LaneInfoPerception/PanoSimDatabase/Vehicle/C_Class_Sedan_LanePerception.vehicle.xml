@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor link="LaneInfoPerception.py" Category="Lane_Info_Perception" X="0" Y="0" Z="0" Yaw="0" Pitch="0" Roll="0" enable="true" hostId="0" nodeId="0" OutputFormat="Timestamp@i,4@[,Lane_ID@i,Lane_Distance@d,Lane_Car_Distance_Left@d,Lane_Car_Distance_Right@d,Lane_Curvature@d,Lane_Coefficient_C0@d,Lane_Coefficient_C1@d,Lane_Coefficient_C2@d,Lane_Coefficient_C3@d,Lane_Class@b" Distance="40" FovHorizontal="60" FovVertical="40" Parameter="False" Physical_Parameters="True" />
+  </Sensors>
+</Vehicle>
