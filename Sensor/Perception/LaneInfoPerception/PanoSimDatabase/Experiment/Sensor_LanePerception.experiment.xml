@@ -51,9 +51,7 @@
         <WayPoint X="-194.86" Y="45.94" />
         <WayPoint X="-194.77" Y="48.09" />
         <WayPoint X="-194.75" Y="49.79" />
-        <WayPoint X="-194.75" Y="49.79" />
         <WayPoint X="-194.75" Y="144.18" />
-        <WayPoint X="-194.75" Y="150" />
         <WayPoint X="-194.75" Y="150" />
         <WayPoint X="-194.75" Y="150.61" />
         <WayPoint X="-194.77" Y="151.7" />
@@ -123,7 +121,6 @@
         <WayPoint X="-235.78" Y="203.39" />
         <WayPoint X="-235.97" Y="203.44" />
         <WayPoint X="-273.73" Y="201.75" />
-        <WayPoint X="-350" Y="201.75" />
         <WayPoint X="-350" Y="201.75" />
         <WayPoint X="-350.56" Y="201.75" />
         <WayPoint X="-351.59" Y="201.73" />
@@ -205,14 +202,11 @@
         <WayPoint X="-401.71" Y="152.07" />
         <WayPoint X="-401.74" Y="151.03" />
         <WayPoint X="-401.75" Y="150.17" />
-        <WayPoint X="-401.75" Y="150.17" />
         <WayPoint X="-401.75" Y="63.86" />
-        <WayPoint X="-401.75" Y="50" />
         <WayPoint X="-401.75" Y="50" />
         <WayPoint X="-401.75" Y="38.45" />
         <WayPoint X="-401.75" Y="23.38" />
         <WayPoint X="-401.52" Y="21.22" />
-        <WayPoint X="-400.91" Y="19.36" />
         <WayPoint X="-400.91" Y="19.36" />
         <WayPoint X="-400.83" Y="19.1" />
         <WayPoint X="-399.68" Y="17.01" />
@@ -237,9 +231,7 @@
         <WayPoint X="-353.87" Y="-1.65" />
         <WayPoint X="-351.82" Y="-1.73" />
         <WayPoint X="-350.17" Y="-1.75" />
-        <WayPoint X="-350.17" Y="-1.75" />
         <WayPoint X="-256.92" Y="-1.75" />
-        <WayPoint X="-250" Y="-1.75" />
         <WayPoint X="-250" Y="-1.75" />
         <WayPoint X="-229.46" Y="-1.75" />
         <WayPoint X="-223.38" Y="-1.75" />
@@ -247,9 +239,7 @@
         <WayPoint X="-190.94" Y="-1.75" />
         <WayPoint X="-156.51" Y="-5" />
         <WayPoint X="-150" Y="-5.25" />
-        <WayPoint X="-150" Y="-5.25" />
         <WayPoint X="-108.56" Y="-5.25" />
-        <WayPoint X="-50" Y="-5.25" />
         <WayPoint X="-50" Y="-5.25" />
         <WayPoint X="-22.08" Y="-5.25" />
         <WayPoint X="-14.3" Y="-5.25" />
@@ -263,7 +253,6 @@
         <WayPoint X="-5.36" Y="-12.4" />
         <WayPoint X="-5.25" Y="-14.3" />
         <WayPoint X="-5.25" Y="-30.82" />
-        <WayPoint X="-5.25" Y="-49.85" />
         <WayPoint X="-5.25" Y="-49.85" />
         <WayPoint X="-5.27" Y="-51.63" />
         <WayPoint X="-5.34" Y="-53.48" />
@@ -290,7 +279,6 @@
         <WayPoint X="-22.21" Y="-94.57" />
         <WayPoint X="-23.38" Y="-94.75" />
         <WayPoint X="-38.89" Y="-94.75" />
-        <WayPoint X="-50" Y="-94.75" />
         <WayPoint X="-50" Y="-94.75" />
         <WayPoint X="-106.12" Y="-94.75" />
       </WayPoints>
@@ -321,7 +309,7 @@
   <TrafficObjects />
   <Disturbance />
   <Agent>
-    <Plugin internal="false" hostId="0" nodeId="0" link="DrawLine.py" frequency="1" Content="True" />
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_LanePerception.py" Parameters="" Parameter="True" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
   </Agent>

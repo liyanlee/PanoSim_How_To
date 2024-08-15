@@ -15,7 +15,7 @@ def ModelStart(userData):
     figure.canvas.set_window_title('PanoSim HowTo Sensor: Lane Info Perception')
 
 def ModelOutput(userData):
-    if (userData['time'] - userData['last']) > 100:
+    if (userData['time'] - userData['last']) >= 100:
         userData['last'] = userData['time']
         Half_PI = np.pi * 0.5
         Id2Flag = ['LL', 'L', 'R', 'RR']
