@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Distance="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0" link="IMU.py" Category="IMU" hostId="0" nodeId="0" FovVertical="0" Frequency="10" scale_factor_gyro_x="0.001" scale_factor_gyro_y="0.001" scale_factor_gyro_z="0.001" scale_factor_acc_x="0.001" scale_factor_acc_y="0.001" scale_factor_acc_z="0.001" non_linear_scale_factor_acc_x="0.001" non_linear_scale_factor_acc_y="0.001" non_linear_scale_factor_acc_z="0.001" Sg_x_y="0" Sg_x_z="0" Sg_y_x="0" Sg_y_z="0" Sg_z_x="0" Sg_z_y="0" Sa_x_y="0" Sa_x_z="0" Sa_y_x="0" Sa_y_z="0" Sa_z_x="0" Sa_z_y="0" noise_acc_x_bias="0.001" noise_acc_y_bias="0.001" noise_acc_z_bias="0.001" noise_gyro_x_bias="0.001" noise_gyro_y_bias="0.001" noise_gyro_z_bias="0.001" noise_compass_bias="0.001" noise_compass_stddev="0.001" angle_random_walk="1" rate_random_walk="1" Gauss="0" OutputFormat="Timestamp@i,ACC_X@d,ACC_Y@d,ACC_Z@d,Gyro_X@d,Gyro_Y@d,Gyro_Z@d,Yaw@d,Pitch@d,Roll@d" Basic_Parameters="True" Noise="True" Parameter="False" />
+  </Sensors>
+</Vehicle>
