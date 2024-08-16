@@ -11,7 +11,7 @@
 - 主车控制
 - 传感器
   - [车道线传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/LaneInfoPerception)
-  - [IMU传感器](#todo)
+  - [IMU传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/IMU)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
