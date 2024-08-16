@@ -4,10 +4,8 @@ from sympy import Matrix, trigsimp, Quaternion
 import matplotlib.pyplot as plt
 
 def ModelStart(userData):
-    sensor_imu_format = 'Timestamp@i,ACC_X@d,ACC_Y@d,ACC_Z@d,Gyro_X@d,Gyro_Y@d,Gyro_Z@d,Yaw@d,Pitch@d,Roll@d'
-    userData['sensor_imu'] = BusAccessor(userData["busId"], 'IMU.0', sensor_imu_format)
-    ego_extra_format = "time@i,VX@d,VY@d,VZ@d,AVx@d,AVy@d,AVz@d,Ax@d,Ay@d,Az@d,AAx@d,AAy@d,AAz@d"
-    userData['ego_extra'] = BusAccessor(userData["busId"], "ego_extra", ego_extra_format)
+    IMU_Format = 'Timestamp@i,ACC_X@d,ACC_Y@d,ACC_Z@d,Gyro_X@d,Gyro_Y@d,Gyro_Z@d,Yaw@d,Pitch@d,Roll@d'
+    userData['imu'] = BusAccessor(userData["busId"], 'IMU.0', IMU_Format)
     userData['last_imu_data'] = ()
     userData['pose'] = Matrix([[1,0,0,0], [0,1,0,0], [0,0,1,0], [0,0,0,1]])
     userData['velocity'] = Matrix([[0], [0], [0]])
@@ -19,7 +17,7 @@ def ModelStart(userData):
     plt.ylabel('Y')
 
 def ModelOutput(userData):
-    ts, acc_x, acc_y, _, _, _, gyro_z, _, _, _ = userData['sensor_imu'].readHeader()
+    ts, acc_x, acc_y, _, _, _, gyro_z, _, _, _ = userData['imu'].readHeader()
     if userData['last_imu_data']:
         last_ts, last_acc_x, last_acc_y, last_gyro_z = userData['last_imu_data']
         if ts > last_ts:
@@ -46,7 +44,7 @@ def ModelOutput(userData):
             pose[1,3] += delta[1,0]
             pose[2,3] += delta[2,0]
             userData['pose'] = pose
-            plt.scatter(pose.col(3)[0,0], pose.col(3)[1,0], c='red')
+            plt.scatter(x=pose.col(3)[0,0], y=pose.col(3)[1,0], c='red')
             plt.pause(interval=0.0001)
     else:
         userData['last_imu_data'] = (ts, acc_x, acc_y, gyro_z)
