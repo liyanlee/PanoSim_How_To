@@ -1,4 +1,4 @@
-# PanoSim 车道线传感器
+# PanoSim IMU传感器
 
 ## 1. 安装部署
 
@@ -14,5 +14,5 @@ echo %PanoSimDatabaseHome%
 ![image](docs/images/open.jpg)
 
 
-## 3. 车道线传感器数据可视化
+## 3. IMU传感器数据可视化
 ![image](docs/images/visualization.jpg)
