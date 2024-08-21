@@ -15,4 +15,9 @@ echo %PanoSimDatabaseHome%
 
 
 ## 3. IMU传感器数据可视化
+
+### 3.1 可视化实现源码
+[%PanoSimDatabaseHome%/Plugin/Agent/HowTo_IMU.py](PanoSimDatabase/Plugin/Agent/HowTo_IMU.py)
+
+### 3.2 可视化运行
 ![image](docs/images/visualization.jpg)
