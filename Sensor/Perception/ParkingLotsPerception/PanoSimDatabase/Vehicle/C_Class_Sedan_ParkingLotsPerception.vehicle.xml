@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Pitch="0" Roll="0" Z="0" link="ParkingLotsPerception.py" Category="Parking_Lots_Perception" hostId="0" nodeId="0" FovVertical="0" Distance="30" FovHorizontal="360" Width="10" OutputFormat="time@i,64@[,x1@d,y1@d,x2@d,y2@d,x3@d,y3@d,x4@d,y4@d" Basic_Parameters="True" Parameter="False" />
+  </Sensors>
+</Vehicle>
