@@ -15,7 +15,10 @@ def ModelOutput(userData):
         userData['last_time'] = timestamp
         plt.clf()
         plt.title('Sensor: Depthmap Perception')
-        plt.imshow(np.frombuffer(userData["sensor"].getBus()[8:], dtype=np.uint8).reshape((720, 1280, 3)))
+        rgb = np.frombuffer(userData["sensor"].getBus()[8:], dtype=np.uint8).reshape((720, 1280, 3))
+        rgb_float = np.array(rgb, dtype='f')
+        gray = (rgb_float[:,:,0] + rgb_float[:,:,1]/255.0 + rgb_float[:,:,2]/65025.0)/255
+        plt.imshow(gray)
         plt.pause(interval=0.0001)
 
 def ModelTerminate(userData):
