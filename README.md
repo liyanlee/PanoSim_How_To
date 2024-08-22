@@ -15,6 +15,7 @@
   - [目标感知传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ObjectPerception)
   - [交通灯传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/TrafficLightPerception)
   - [停车位传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ParkingLotsPerception)
+  - [深度图传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/DepthmapPerception)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
