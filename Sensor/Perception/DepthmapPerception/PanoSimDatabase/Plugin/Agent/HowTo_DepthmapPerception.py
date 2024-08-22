@@ -1,6 +1,5 @@
 from DataInterfacePython import *
 import numpy as np
-import imageio
 import matplotlib.pyplot as plt
 
 def ModelStart(userData):
