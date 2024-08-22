@@ -10,7 +10,9 @@
         <WayPoint X="-5.25" Y="21" />
         <WayPoint X="-5.25" Y="-79" />
       </WayPoints>
-      <Edges />
+      <Edges>
+        <Edge id="1001" Direction="S" />
+      </Edges>
     </Trajectory>
     <SpeedTable>
       <SpeedTime Time="0" Speed="0" />
@@ -20,7 +22,7 @@
   <TrafficObjects />
   <Disturbance />
   <Agent>
-    <Plugin internal="false" hostId="0" nodeId="0" link="HowTo_TrafficLightPerception.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_TrafficLightPerception.py" Parameters="" Parameter="True" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
   </Agent>
