@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Pitch="0" Roll="0" Z="1" link="SurroundLidarPointCloudSensor/SurroundLidarPointCloudSensor.json" Category="Surround_Lidar_Point_Cloud_Sensor" hostId="0" nodeId="0" Type="Lidar" Distance="200" FovHorizontal="360" RotationFrequency="10" MeasurementsPerRotation="360" lidarSystemCoefficient="31611.51924" dropoff="0.3" FovVertical="41.33" RayCount="32" CenterAngle="10" LidarCloudVerticalRayAngles="LidarCloudVerticalRayAngles.csv" MateralCatalog="MateralCatalog.csv" fog_visibility="10" haze_visibility="10" rainfall="0" snowfall_wet="0" snowfall_dry="0" P_noise="0" Metal="0.89" Plastic="0.3" Rubber="0.3" Glass="0.03" Person="0.75" Plant="0.5" Wall="0.45" unknown="0.45" Parameter="False" Basic_Parameters="True" uniform="True" nonuniform="False" Weather="True" Fog="False" Haze="False" Rain="False" Snow_Wet="False" Snow_Dry="False" materialReflectivity="True" />
+  </Sensors>
+</Vehicle>
