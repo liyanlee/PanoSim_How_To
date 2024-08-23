@@ -1,0 +1,48 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown" traffic="true" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_FisheyeCamera" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="-5.25" Y="45" type="Road" Lane="1001_0" />
+        <KeyPoint X="-5.25" Y="-25.02" type="Road" Lane="1006_0" />
+        <KeyPoint X="-7.62" Y="-68.69" type="Road" Lane="13003_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="-5.25" Y="45" />
+        <WayPoint X="-5.25" Y="14.3" />
+        <WayPoint X="-5.25" Y="-14.3" />
+        <WayPoint X="-5.25" Y="-25.02" />
+        <WayPoint X="-5.25" Y="-49.85" />
+        <WayPoint X="-5.25" Y="-49.85" />
+        <WayPoint X="-5.27" Y="-51.63" />
+        <WayPoint X="-5.34" Y="-53.48" />
+        <WayPoint X="-5.53" Y="-56.31" />
+        <WayPoint X="-5.82" Y="-59.11" />
+        <WayPoint X="-6.21" Y="-61.89" />
+        <WayPoint X="-6.72" Y="-64.68" />
+        <WayPoint X="-7.09" Y="-66.46" />
+        <WayPoint X="-7.62" Y="-68.69" />
+      </WayPoints>
+      <Edges>
+        <Edge id="1001" Direction="S" />
+        <Edge id="1006" Direction="S" />
+        <Edge id="13003" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="10" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_FisheyeCamera.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
