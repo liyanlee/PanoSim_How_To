@@ -19,6 +19,7 @@
   - [分割图传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/SegmentationPerception)
   - [单目相机传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Camera/MonoCamera)
   - [鱼眼相机传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Camera/FisheyeCamera)
+  - [机械式点云级激光雷达传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Lidar/SurroundLidarPointCloud)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
