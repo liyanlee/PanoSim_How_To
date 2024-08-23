@@ -17,6 +17,7 @@
   - [停车位传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ParkingLotsPerception)
   - [深度图传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/DepthmapPerception)
   - [分割图传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/SegmentationPerception)
+  - [单目相机传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Camera/MonoCamera)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
