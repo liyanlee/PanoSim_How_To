@@ -1,0 +1,52 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_Ultrasonic" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="-65" Y="1.75" type="Road" Lane="3000_1" />
+        <KeyPoint X="-81.13" Y="1.75" type="Road" Lane="3000_1" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="-65" Y="1.75" />
+        <WayPoint X="-81.13" Y="1.75" />
+      </WayPoints>
+      <Edges>
+        <Edge id="3000" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="10" />
+      <SpeedTime Time="20" Speed="0" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects>
+    <TrafficObject type="Vehicle" shape="5">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="false" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-86" Y="1.75" type="Road" Lane="3000_1" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-86" Y="1.75" />
+            <WayPoint X="-186" Y="1.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="0" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+  </TrafficObjects>
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_Ultrasonic.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="15" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
