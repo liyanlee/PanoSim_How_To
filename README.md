@@ -22,6 +22,7 @@
   - [机械式点云级激光雷达传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Lidar/SurroundLidarPointCloud)
   - [固态激光雷达传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Lidar/SolidStateLidarPointCloud)
   - [自由行驶区域感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/FreeSpacePerception)
+  - [超声波雷达传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Ultrasonic/Ultrasonic)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
