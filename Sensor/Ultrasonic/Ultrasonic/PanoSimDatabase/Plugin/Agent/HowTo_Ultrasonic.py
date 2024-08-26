@@ -7,14 +7,14 @@ def ModelStart(userData):
     userData['ts'] = []
     userData['distance'] = []
     plt.ion()
-    plt.figure(dpi=100).canvas.set_window_title('PanoSim HowTo Sensor: Free Space Perception')
+    plt.figure(dpi=100).canvas.set_window_title('PanoSim HowTo Sensor: Ultrasonic')
 
 def ModelOutput(userData):
     timestamp, count = userData['sensor'].readHeader()
     if timestamp > userData['last_time']:
         userData['last_time'] = timestamp
         plt.clf()
-        plt.title('Sensor: Free Space Perception')
+        plt.title('Sensor: Ultrasonic')
         plt.xlabel('time(s)')
         plt.xlim((0, 20))
         plt.ylabel('distance(m)')
