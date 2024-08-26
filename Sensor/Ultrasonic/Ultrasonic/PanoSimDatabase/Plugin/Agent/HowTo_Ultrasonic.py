@@ -20,11 +20,9 @@ def ModelOutput(userData):
         plt.ylabel('distance(m)')
         plt.ylim((-1, 11))
         if count > 0:
-            distance = userData['sensor'].readBody(0)[0]
             userData['ts'].append(timestamp / 1000)
-            userData['distance'].append(distance)
+            userData['distance'].append(userData['sensor'].readBody(0)[0])
         plt.plot(userData['ts'], userData['distance'])
-        print(userData['ts'])
         plt.pause(interval=0.0001)
 
 def ModelTerminate(userData):
