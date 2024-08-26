@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Pitch="0" Roll="0" Z="1" link="FreeSpacePerception/FreeSpacePerception.json" Category="Free_Space_Perception" hostId="0" nodeId="0" FovVertical="0" Type="FreeSpace" Distance="10" FovHorizontal="360" resolutionwidth="1024" angleClip="0.1" drawCloud="FALSE" OutputFormat="time@i,3600@[,x@d,y@d" Parameter="False" Property="True" />
+  </Sensors>
+</Vehicle>
