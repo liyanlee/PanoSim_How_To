@@ -8,9 +8,9 @@ def ModelStart(userData):
     userData['last_time'] = 0
     plt.ion()
     userData['figure'] = plt.figure(dpi=100)
-    userData['figure'].canvas.set_window_title('PanoSim HowTo Sensor: Radar')
+    userData['figure'].canvas.set_window_title('PanoSim HowTo Sensor: RadarHIFI')
     userData['ax'] = userData['figure'].add_subplot(projection='polar')
-    plt.title('Sensor: Radar')
+    plt.title('Sensor: RadarHIFI')
     fov = np.radians(18)
     userData['ax'].set_xlim([-fov/2, fov/2])
     userData['ax'].set_ylim([0, 100])
