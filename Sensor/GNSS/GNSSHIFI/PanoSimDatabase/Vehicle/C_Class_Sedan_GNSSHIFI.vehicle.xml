@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Distance="0" Pitch="0" Roll="0" Z="0" link="GNSSHIFI/GNSSHIFI.json" Category="GNSS" hostId="0" nodeId="0" year="2024" month="3" day="12" hour="10" minute="0" sec="0" Frequency="10" Longitude="118.767413" TimeZone="E" Latitude="32.04154396" Altitude="0" OutputFormat="Timestamp@i,Longitude@d,Latitude@d,Altitude@d,Heading@d,Velocity@d" Type="GNSSHIFI" broadcast_ephemeris_RINEX2N="brdc0720.24n" FovHorizontal="1" FovVertical="1" AirTemperature="293.15" AirPressure="1013.25" WaterVaporPressure="23.37" Local_Time="True" Basic_Parameters="True" Parameter="False" />
+  </Sensors>
+</Vehicle>
