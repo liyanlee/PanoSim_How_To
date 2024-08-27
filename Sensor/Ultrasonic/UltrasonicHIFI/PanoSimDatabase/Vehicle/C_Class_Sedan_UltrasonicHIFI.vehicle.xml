@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Pitch="0" Roll="0" Z="0" link="UltrasonicHIFISensor/UltrasonicHIFISensor.json" Category="Ultrasonic_HIFI_Sensor" hostId="0" nodeId="0" Type="UltrasonicRadar" Distance="10" FovHorizontal="18" FovVertical="18" timeSliceCount="100" startTime="0" samplingTimeInterval="0.25" mode="3" zone="0" drawCloud="FALSE" Camera_Type="False" Physical_Parameters="True" Parameter="True" />
+  </Sensors>
+</Vehicle>
