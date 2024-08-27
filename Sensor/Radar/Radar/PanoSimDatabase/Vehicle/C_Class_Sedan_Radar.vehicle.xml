@@ -1,0 +1,7 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0.8" Y="0" enable="true" Yaw="0" Pitch="0" Roll="0" Z="0.5" link="RadarSensor/RadarSensor.json" Category="Radar_Sensor" hostId="0" nodeId="1" Distance="100" FovHorizontal="18" FovVertical="18" OperatingFrequency="77" MaximunObjects="64" CycleTime="10" TransmittedPower="6.6" Sensitivity="1E-14" DistanceResolution="1.7" DistanceAccuracy="1.6" AzimuthAngleResolution="0" AzimuthAngleAccuracy="0" VelocityResolution="0" VelocityAccuracy="0" OccuThreshold="0.7" MissDetectionRate="0" MissFarRange="0.3" MissMiddleRange="0.3" MissNearRange="0.4" SpuriousDetectionRate="0" SpuriousFarRange="0.3" SpuriousMiddleRange="0.3" SpuriousNearRange="0.4" AzimuthGaussian="0" AzimuthUnidirectional="0" ElevationGaussian="0" ElevationUnidirectional="0" GaussianNoiseInValue="0" resolutionwidth="1280" resolutionheight="720" Type="RadarSensor" OutputFormat="time@i,64@[,OBJ_ID@i,OBJ_Class@i,OBJ_S_Azimuth@d,OBJ_S_Elevation@d,OBJ_S_Velocity@d,OBJ_S_Range@d,OBJ_RCS@d" Physical_Parameters="True" Injection="False" Missing_Detection="False" Spurious_Detection="False" Drift="False" DriftAzimuth="False" DriftElevation="False" Noise="False" Parameter="False" />
+  </Sensors>
+</Vehicle>
