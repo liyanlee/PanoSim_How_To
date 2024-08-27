@@ -27,6 +27,7 @@
   - [全球导航卫星系统](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/GNSS/GNSS)
   - [高精度全球导航卫星系统](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/GNSS/GNSSHIFI)
   - [毫米波雷达传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Radar/Radar)
+  - [高精度毫米波雷达传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Radar/RadarHIFI)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
