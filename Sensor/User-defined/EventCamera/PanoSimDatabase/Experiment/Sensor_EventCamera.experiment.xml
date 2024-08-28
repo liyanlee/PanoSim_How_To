@@ -1,0 +1,72 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown" traffic="true" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_EventCamera" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="-5.25" Y="42" type="Road" Lane="1001_0" />
+        <KeyPoint X="-5.25" Y="-30.34" type="Road" Lane="1006_0" />
+        <KeyPoint X="-9.13" Y="-73.84" type="Road" Lane="13003_0" />
+        <KeyPoint X="-40.83" Y="-94.75" type="Road" Lane="13002_0" />
+        <KeyPoint X="-92.78" Y="-94.75" type="Road" Lane="14001_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="-5.25" Y="42" />
+        <WayPoint X="-5.25" Y="14.3" />
+        <WayPoint X="-5.25" Y="-14.3" />
+        <WayPoint X="-5.25" Y="-30.34" />
+        <WayPoint X="-5.25" Y="-49.85" />
+        <WayPoint X="-5.25" Y="-49.85" />
+        <WayPoint X="-5.27" Y="-51.63" />
+        <WayPoint X="-5.34" Y="-53.48" />
+        <WayPoint X="-5.53" Y="-56.31" />
+        <WayPoint X="-5.82" Y="-59.11" />
+        <WayPoint X="-6.21" Y="-61.89" />
+        <WayPoint X="-6.72" Y="-64.68" />
+        <WayPoint X="-7.09" Y="-66.46" />
+        <WayPoint X="-7.76" Y="-69.25" />
+        <WayPoint X="-8.23" Y="-70.98" />
+        <WayPoint X="-9.08" Y="-73.7" />
+        <WayPoint X="-9.13" Y="-73.84" />
+        <WayPoint X="-10.01" Y="-76.38" />
+        <WayPoint X="-10.67" Y="-78.1" />
+        <WayPoint X="-11.39" Y="-79.86" />
+        <WayPoint X="-11.59" Y="-80.29" />
+        <WayPoint X="-13.04" Y="-83.32" />
+        <WayPoint X="-14.46" Y="-86" />
+        <WayPoint X="-15.84" Y="-88.32" />
+        <WayPoint X="-17.19" Y="-90.29" />
+        <WayPoint X="-18.5" Y="-91.89" />
+        <WayPoint X="-19.77" Y="-93.14" />
+        <WayPoint X="-21.01" Y="-94.04" />
+        <WayPoint X="-22.21" Y="-94.57" />
+        <WayPoint X="-23.38" Y="-94.75" />
+        <WayPoint X="-40.83" Y="-94.75" />
+        <WayPoint X="-50" Y="-94.75" />
+        <WayPoint X="-50" Y="-94.75" />
+        <WayPoint X="-92.78" Y="-94.75" />
+      </WayPoints>
+      <Edges>
+        <Edge id="1001" Direction="S" />
+        <Edge id="1006" Direction="S" />
+        <Edge id="13003" Direction="S" />
+        <Edge id="13002" Direction="R" />
+        <Edge id="14001" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="10" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="2" link="HowTo_EventCamera.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
