@@ -1,0 +1,30 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown" traffic="true" hostId="0" nodeId="0" />
+  <Vehicle link="" hostId="0" nodeId="0" type="Simple" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="0" Y="0" type="Free" Lane="-" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="0" Y="0" />
+        <WayPoint X="100" Y="0" />
+      </WayPoints>
+      <Edges />
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="10" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_Bus_traffic_light.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
