@@ -4,11 +4,10 @@
 
 ### 1.1 下载[文件](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Camera/FisheyeCamera/PanoSimDatabase)
 
-### 1.2 复制文件到本地对应目录
- - 查询本地对应目录
-```
-echo %PanoSimDatabaseHome%
-```
+### 1.2 查询本地对应目录
+![image](../../../Bus/ego/docs/images/folder.jpg)
+
+### 1.3 复制文件到本地对应目录
 
 ## 2. 运行实验
 ![image](docs/images/open.jpg)
