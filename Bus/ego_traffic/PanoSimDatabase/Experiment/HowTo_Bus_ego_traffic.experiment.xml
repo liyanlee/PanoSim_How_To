@@ -1,0 +1,94 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="-1.75" Y="62.5" type="Road" Lane="18005_1" />
+        <KeyPoint X="-1.75" Y="46.05" type="Road" Lane="1001_1" />
+        <KeyPoint X="-3.86" Y="24.18" type="Free" Lane="" />
+        <KeyPoint X="-19.2" Y="5.25" type="Road" Lane="1007_0" />
+        <KeyPoint X="-56.42" Y="1.76" type="Road" Lane="3000_1" />
+        <KeyPoint X="-87.1" Y="1.75" type="Road" Lane="3000_1" />
+        <KeyPoint X="-110.39" Y="5.71" type="Free" Lane="" />
+        <KeyPoint X="-126.87" Y="5.25" type="Road" Lane="3000_0" />
+        <KeyPoint X="-160.96" Y="1.75" type="Road" Lane="4004_1" />
+        <KeyPoint X="-176.02" Y="1.75" type="Road" Lane="4004_1" />
+        <KeyPoint X="-188.8" Y="4.86" type="Free" Lane="" />
+        <KeyPoint X="-195.11" Y="42.36" type="Road" Lane="4000_0" />
+        <KeyPoint X="-194.75" Y="87.24" type="Road" Lane="7000_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="-1.75" Y="62.5" />
+        <WayPoint X="-1.75" Y="50" />
+        <WayPoint X="-1.75" Y="50" />
+        <WayPoint X="-1.75" Y="46.05" />
+        <WayPoint X="-3.86" Y="24.18" />
+        <WayPoint X="-5.25" Y="14.3" />
+        <WayPoint X="-5.36" Y="12.4" />
+        <WayPoint X="-5.7" Y="10.72" />
+        <WayPoint X="-6.26" Y="9.27" />
+        <WayPoint X="-7.04" Y="8.04" />
+        <WayPoint X="-8.04" Y="7.04" />
+        <WayPoint X="-9.27" Y="6.26" />
+        <WayPoint X="-10.72" Y="5.7" />
+        <WayPoint X="-12.4" Y="5.36" />
+        <WayPoint X="-14.3" Y="5.25" />
+        <WayPoint X="-19.2" Y="5.25" />
+        <WayPoint X="-56.42" Y="1.76" />
+        <WayPoint X="-87.1" Y="1.75" />
+        <WayPoint X="-110.39" Y="5.71" />
+        <WayPoint X="-126.87" Y="5.25" />
+        <WayPoint X="-160.96" Y="1.75" />
+        <WayPoint X="-176.02" Y="1.75" />
+        <WayPoint X="-188.8" Y="4.86" />
+        <WayPoint X="-199.87" Y="5.25" />
+        <WayPoint X="-201.22" Y="5.38" />
+        <WayPoint X="-202.29" Y="5.75" />
+        <WayPoint X="-203.09" Y="6.38" />
+        <WayPoint X="-203.6" Y="7.26" />
+        <WayPoint X="-203.84" Y="8.39" />
+        <WayPoint X="-203.8" Y="9.77" />
+        <WayPoint X="-203.48" Y="11.4" />
+        <WayPoint X="-202.88" Y="13.28" />
+        <WayPoint X="-202.01" Y="15.41" />
+        <WayPoint X="-201.71" Y="16.08" />
+        <WayPoint X="-200.91" Y="18.02" />
+        <WayPoint X="-200.14" Y="20.03" />
+        <WayPoint X="-199.1" Y="23.02" />
+        <WayPoint X="-198.17" Y="26.04" />
+        <WayPoint X="-197.58" Y="28.17" />
+        <WayPoint X="-196.85" Y="31.2" />
+        <WayPoint X="-196.4" Y="33.34" />
+        <WayPoint X="-195.85" Y="36.45" />
+        <WayPoint X="-195.4" Y="39.61" />
+        <WayPoint X="-195.11" Y="42.36" />
+        <WayPoint X="-195.07" Y="42.79" />
+        <WayPoint X="-194.86" Y="45.94" />
+        <WayPoint X="-194.77" Y="48.09" />
+        <WayPoint X="-194.75" Y="49.79" />
+        <WayPoint X="-194.75" Y="49.79" />
+        <WayPoint X="-194.75" Y="87.24" />
+      </WayPoints>
+      <Edges>
+        <Edge id="18005" Direction="S" />
+        <Edge id="1001" Direction="S" />
+        <Edge id="7000" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="20" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_Bus_ego_traffic.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
