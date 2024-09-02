@@ -1,4 +1,4 @@
-# PanoSim ego总线
+# PanoSim warning总线
 
 ## 1. 安装部署
 
