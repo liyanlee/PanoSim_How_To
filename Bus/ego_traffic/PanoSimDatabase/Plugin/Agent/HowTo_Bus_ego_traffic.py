@@ -1,5 +1,4 @@
 from DataInterfacePython import *
-import math
 import numpy as np
 import matplotlib.pyplot as plt
 from shapely.geometry import LineString
