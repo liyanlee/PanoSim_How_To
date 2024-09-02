@@ -41,6 +41,7 @@
   - [ego](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/ego)
   - [traffic](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic)
   - [traffic_light](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_light)
+  - [warning](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/warning)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
