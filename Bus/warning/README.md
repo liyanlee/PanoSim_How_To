@@ -13,7 +13,7 @@
 ![image](docs/images/open.jpg)
 
 
-## 3. IMU传感器数据可视化
+## 3. warning总线数据可视化
 
 ### 3.1 可视化实现源码
 [%PanoSimDatabaseHome%/Plugin/Agent/HowTo_Bus_warning.py](PanoSimDatabase/Plugin/Agent/HowTo_Bus_warning.py)
