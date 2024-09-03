@@ -45,6 +45,7 @@
   - [ego_traffic](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/ego_traffic)
   - [traffic_object_highlight](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_object_highlight)
   - [weather](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/weather)
+  - [judge](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/judge)
 - 算法
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
