@@ -14,11 +14,11 @@
 
 ## 3. 主车控制
 使用键盘控制主车行驶, 按键如下表所示
-| Press Key |    | Signal             |
-|-----------|----|--------------------|
-| Page Up   |    | mode      =   6    |
-| Page Down |    | mode      =   -1   |
-| Up        |    | throttle  =   0.3  |
-| Down      |    | brake     =   5    |
-| Left      |    | steer     =   180  |
-| Right     |    | steer     =   -180 |
+| Press Key | Signal             |
+|-----------|--------------------|
+| Page Up   | mode      =   6    |
+| Page Down | mode      =   -1   |
+| Up        | throttle  =   0.3  |
+| Down      | brake     =   5    |
+| Left      | steer     =   180  |
+| Right     | steer     =   -180 |
