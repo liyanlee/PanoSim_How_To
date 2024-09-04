@@ -9,6 +9,12 @@
   - [鱼钩工况](#todo)
   - [双移线工况](#todo)
 - 主车控制
+  - [驾驶员信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/driver_signal)
+  - [算法](#todo:ego_control.xxx)
+  - [期望速度](#todo:xDriver_speed_input)
+  - [期望轨迹](#todo:xDriver_path_input)
+  - [加速度控制器](#todo:xDriver_accel_input)
+  - [前轮转角控制器](#todo:xDriver_road_wheel_angle_input)
 - 传感器
   - 感知
     - [车道线传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/LaneInfoPerception)
@@ -45,6 +51,7 @@
   - [ego_traffic](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/ego_traffic)
   - [traffic_object_highlight](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_object_highlight)
   - [weather](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/weather)
+  - [ego_driver](#todo:ego_driver)
 - 评估器
   - [碰撞评估器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/judge)
 - 算法
