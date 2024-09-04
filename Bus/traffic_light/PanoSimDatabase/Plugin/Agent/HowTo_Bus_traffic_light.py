@@ -6,7 +6,7 @@ def ModelStart(userData):
     userData['traffic_light'] = BusAccessor(userData['busId'], 'traffic_light', Format)
     userData['last_time'] = 0
     plt.ion()
-    plt.figure(dpi=100).canvas.set_window_title('PanoSim HowTo Bus: traffic')
+    plt.figure(dpi=100).canvas.set_window_title('PanoSim HowTo Bus: traffic light')
 
 def ModelOutput(userData):
     timestamp, count = userData['traffic_light'].readHeader()
