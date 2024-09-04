@@ -1,7 +1,11 @@
 from DataInterfacePython import *
 from shapely.geometry import Polygon
 
-def check_traffic_object(ego_x, ego_y, ego_z, ego_polygon, bus_traffic):
+def check_collision(userData):
+    _, ego_x, ego_y, ego_z, _, _, _, _ = userData['ego'].readHeader()
+    ego = getEgoVertex()
+    ego_polygon = Polygon([(ego[1][0], ego[1][1]), (ego[2][0], ego[2][1]), (ego[3][0], ego[3][1]), (ego[4][0], ego[4][1])])
+    bus_traffic = userData['bus_traffic'].getReader(userData['time'])
     _, width = bus_traffic.readHeader()
     for index in range(width):
         _, type, shape, x, y, z, yaw, pitch, roll, _ = bus_traffic.readBody(index)
@@ -12,12 +16,6 @@ def check_traffic_object(ego_x, ego_y, ego_z, ego_polygon, bus_traffic):
         if ego_polygon.intersects(object):
             return True
     return False
-
-def check_collision(userData):
-    _, ego_x, ego_y, ego_z, _, _, _, _ = userData['ego'].readHeader()
-    ego = getEgoVertex()
-    ego_polygon = Polygon([(ego[1][0], ego[1][1]), (ego[2][0], ego[2][1]), (ego[3][0], ego[3][1]), (ego[4][0], ego[4][1])])
-    return check_traffic_object(ego_x, ego_y, ego_z, ego_polygon, userData['bus_traffic'].getReader(userData['time']))
 
 def ModelStart(userData):
     userData['ego'] = BusAccessor(userData['busId'], 'ego', 'time@i,x@d,y@d,z@d,yaw@d,pitch@d,roll@d,speed@d')
