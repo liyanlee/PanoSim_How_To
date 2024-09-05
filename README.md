@@ -18,7 +18,7 @@
 - 传感器
   - 感知器
     - [车道线感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/LaneInfoPerception)
-    - [目标感知感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ObjectPerception)
+    - [目标感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ObjectPerception)
     - [交通灯感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/TrafficLightPerception)
     - [深度图感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/DepthmapPerception)
     - [分割图感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/SegmentationPerception)
