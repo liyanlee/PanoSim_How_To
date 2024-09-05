@@ -1,4 +1,4 @@
-# PanoSim 主车控制——驾驶员信号
+# PanoSim 主车控制信号——驾驶员控制信号
 
 ## 1. 安装部署
 
@@ -12,7 +12,7 @@
 ## 2. 运行实验
 ![image](docs/images/open.jpg)
 
-## 3. 主车控制
+## 3. 主车控制信号
 
 ### 3.1 实现源码
 [%PanoSimDatabaseHome%/Plugin/Agent/HowTo_EgoCtrl_driver_signal.py](PanoSimDatabase/Plugin/Agent/HowTo_EgoCtrl_driver_signal.py)
