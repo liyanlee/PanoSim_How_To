@@ -8,21 +8,21 @@
   - [蛇形工况](#todo)
   - [鱼钩工况](#todo)
   - [双移线工况](#todo)
-- 主车控制
-  - [驾驶员信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/driver_signal)
-  - [算法](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/algorithm)
-  - [期望速度](#todo:xDriver_speed_input)
-  - [期望轨迹](#todo:xDriver_path_input)
-  - [加速度控制器](#todo:xDriver_accel_input)
-  - [前轮转角控制器](#todo:xDriver_road_wheel_angle_input)
+- 主车控制信号
+  - [驾驶员控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/driver_signal)
+  - [算法控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/algorithm)
+  - [期望速度控制信号](#todo:xDriver_speed_input)
+  - [期望轨迹控制信号](#todo:xDriver_path_input)
+  - [加速度控制信号](#todo:xDriver_accel_input)
+  - [前轮转角控制信号](#todo:xDriver_road_wheel_angle_input)
 - 传感器
-  - 感知
-    - [车道线传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/LaneInfoPerception)
-    - [目标感知传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ObjectPerception)
-    - [交通灯传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/TrafficLightPerception)
-    - [深度图传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/DepthmapPerception)
-    - [分割图传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/SegmentationPerception)
-    - [停车位传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ParkingLotsPerception)
+  - 感知器
+    - [车道线感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/LaneInfoPerception)
+    - [目标感知感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ObjectPerception)
+    - [交通灯感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/TrafficLightPerception)
+    - [深度图感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/DepthmapPerception)
+    - [分割图感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/SegmentationPerception)
+    - [停车位感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ParkingLotsPerception)
     - [自由行驶区域感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/FreeSpacePerception)
   - 相机
     - [单目相机传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Camera/MonoCamera)
@@ -44,14 +44,16 @@
   - User-defined
     - [事件相机传感器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/User-defined/EventCamera)
 - 总线
-  - [ego](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/ego)
-  - [traffic](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic)
-  - [traffic_light](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_light)
-  - [warning](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/warning)
-  - [ego_traffic](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/ego_traffic)
-  - [traffic_object_highlight](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_object_highlight)
-  - [weather](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/weather)
-  - [ego_driver](#todo:ego_driver)
+  - 获取数据
+    - [主车位姿、速度](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/ego)
+    - [交通参与物类型、外形、位姿、速度](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic)
+    - [交通灯的方向、颜色、倒计时](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_light)
+    - [主车所在车道、前方交叉口、SL坐标系位置](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/ego_traffic)
+    - [主车信号(油门、刹车、方向盘等)](#todo:ego_driver)
+  - 设置数据
+    - [告警信息](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/warning)
+    - [交通参与物高亮](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_object_highlight)
+    - [动态天气光照](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/weather)
 - 评估器
   - [碰撞评估器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/judge)
 - 算法
