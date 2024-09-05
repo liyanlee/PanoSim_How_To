@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 def ModelStart(userData):
     IMU_Format = 'Timestamp@i,ACC_X@d,ACC_Y@d,ACC_Z@d,Gyro_X@d,Gyro_Y@d,Gyro_Z@d,Yaw@d,Pitch@d,Roll@d'
-    userData['imu'] = BusAccessor(userData["busId"], 'IMU.0', IMU_Format)
+    userData['imu'] = BusAccessor(userData['busId'], 'IMU.0', IMU_Format)
     userData['last_imu_data'] = ()
     userData['pose'] = Matrix([[1,0,0,0], [0,1,0,0], [0,0,1,0], [0,0,0,1]])
     userData['velocity'] = Matrix([[0], [0], [0]])

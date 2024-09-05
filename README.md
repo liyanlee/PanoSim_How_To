@@ -10,7 +10,7 @@
   - [双移线工况](#todo)
 - 主车控制
   - [驾驶员信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/driver_signal)
-  - [算法](#todo:ego_control.xxx)
+  - [算法](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/algorithm)
   - [期望速度](#todo:xDriver_speed_input)
   - [期望轨迹](#todo:xDriver_path_input)
   - [加速度控制器](#todo:xDriver_accel_input)

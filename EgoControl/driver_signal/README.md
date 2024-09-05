@@ -13,6 +13,11 @@
 ![image](docs/images/open.jpg)
 
 ## 3. 主车控制
+
+### 3.1 实现源码
+[%PanoSimDatabaseHome%/Plugin/Agent/HowTo_EgoCtrl_driver_signal.py](PanoSimDatabase/Plugin/Agent/HowTo_EgoCtrl_driver_signal.py)
+
+### 3.2 操作方法
 使用键盘控制主车行驶, 按键如下表所示
 | Press Key | Signal             |
 |-----------|--------------------|

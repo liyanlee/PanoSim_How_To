@@ -7,7 +7,7 @@ def ModelStart(userData):
     sensor_output_format = 'Timestamp@i,4@[,Lane_ID@i,Lane_Distance@d,\
         Lane_Car_Distance_Left@d,Lane_Car_Distance_Right@d,Lane_Curvature@d,\
         Lane_Coefficient_C0@d,Lane_Coefficient_C1@d,Lane_Coefficient_C2@d,Lane_Coefficient_C3@d,Lane_Class@b'
-    userData["sensor_output"] = BusAccessor(userData["busId"], sensor_name, sensor_output_format)
+    userData['sensor_output'] = BusAccessor(userData['busId'], sensor_name, sensor_output_format)
     userData['last'] = 0
     plt.ion()
     plt.rcParams['figure.figsize'] = [5, 7]
@@ -33,9 +33,9 @@ def ModelOutput(userData):
 
         curvatures = []
         distance2line = ()
-        _, width = userData["sensor_output"].readHeader()
+        _, width = userData['sensor_output'].readHeader()
         for i in range(width):
-            id, _, left, right, curvature, c0, c1, c2, c3, type = userData["sensor_output"].readBody(i)
+            id, _, left, right, curvature, c0, c1, c2, c3, type = userData['sensor_output'].readBody(i)
             if type != 0:
                 if not distance2line:
                     distance2line = (left, right)

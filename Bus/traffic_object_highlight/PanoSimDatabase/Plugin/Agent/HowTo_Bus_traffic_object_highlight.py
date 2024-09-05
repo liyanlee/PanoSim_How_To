@@ -2,7 +2,7 @@ from DataInterfacePython import *
 
 def ModelStart(userData):
     Format = 'time@i,100@[,id@i,r@b,g@b,b@b,a@b'
-    userData["bus"] = BusAccessor(userData["busId"], "traffic_object_highlight", Format)
+    userData['bus'] = BusAccessor(userData['busId'], 'traffic_object_highlight', Format)
 
 def ModelOutput(userData):
     id, red, green, blue, alpha = 109, 127, 0, 0, 127

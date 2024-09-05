@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 def ModelStart(userData):
     OutputFormat = 'Timestamp@i,64@[,OBJ_ID@i,OBJ_Class@b,\
         OBJ_X@d,OBJ_Y@d,OBJ_Z@d,OBJ_Velocity@d,OBJ_Length@d,OBJ_Width@d,OBJ_Height@d'
-    userData['sensor'] = BusAccessor(userData["busId"], 'ObjectPerception.0', OutputFormat)
+    userData['sensor'] = BusAccessor(userData['busId'], 'ObjectPerception.0', OutputFormat)
     userData['last_time'] = 0
     plt.ion()
     plt.figure(dpi=100).canvas.set_window_title('PanoSim HowTo Sensor: Object Perception')

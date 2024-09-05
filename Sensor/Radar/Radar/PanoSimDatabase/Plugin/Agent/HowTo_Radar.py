@@ -4,7 +4,7 @@ import numpy as np
 
 def ModelStart(userData):
     sensor_output_format = 'time@i,64@[,OBJ_ID@i,OBJ_Class@i,OBJ_S_Azimuth@d,OBJ_S_Elevation@d,OBJ_S_Velocity@d,OBJ_S_Range@d,OBJ_RCS@d'
-    userData['sensor'] = BusAccessor(userData["busId"], 'RadarSensor.0', sensor_output_format)
+    userData['sensor'] = BusAccessor(userData['busId'], 'RadarSensor.0', sensor_output_format)
     userData['last_time'] = 0
     plt.ion()
     userData['figure'] = plt.figure(dpi=100)

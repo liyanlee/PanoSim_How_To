@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def ModelStart(userData):
     OutputFormat = 'time@i,64@[,x1@d,y1@d,x2@d,y2@d,x3@d,y3@d,x4@d,y4@d'
-    userData['sensor'] = BusAccessor(userData["busId"], 'ParkingLotsPerception.0', OutputFormat)
+    userData['sensor'] = BusAccessor(userData['busId'], 'ParkingLotsPerception.0', OutputFormat)
     EgoFormat = 'time@i,x@d,y@d,z@d,yaw@d,pitch@d,roll@d,speed@d'
     userData['ego'] = BusAccessor(userData['busId'], 'ego', EgoFormat)
     userData['last_time'] = 0

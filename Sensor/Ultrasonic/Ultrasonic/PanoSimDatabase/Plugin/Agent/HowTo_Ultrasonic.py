@@ -2,7 +2,7 @@ from DataInterfacePython import *
 import matplotlib.pyplot as plt
 
 def ModelStart(userData):
-    userData['sensor'] = BusAccessor(userData["busId"], 'UltrasonicSensor.0', 'time@i,1@[,distance@d')
+    userData['sensor'] = BusAccessor(userData['busId'], 'UltrasonicSensor.0', 'time@i,1@[,distance@d')
     userData['last_time'] = 0
     userData['ts'] = []
     userData['distance'] = []

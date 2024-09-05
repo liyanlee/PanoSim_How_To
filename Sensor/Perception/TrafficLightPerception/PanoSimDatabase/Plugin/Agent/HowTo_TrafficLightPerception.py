@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 
 def ModelStart(userData):
     OutputFormat = 'Timestamp@i,4@[,TrafficLight_Direction@b,TrafficLight_State@b,TrafficLight_Timer@i'
-    userData['sensor'] = BusAccessor(userData["busId"], 'TrafficLightPerception.0', OutputFormat)
+    userData['sensor'] = BusAccessor(userData['busId'], 'TrafficLightPerception.0', OutputFormat)
     userData['last_time'] = 0
     plt.ion()
     plt.figure(dpi=100).canvas.set_window_title('PanoSim HowTo Sensor: Traffic Light Perception')
