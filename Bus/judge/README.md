@@ -13,9 +13,9 @@
 ![image](docs/images/open.jpg)
 
 
-## 3. judge总线数据可视化
+## 3. judge总线使用方法
 
-### 3.1 可视化实现源码
+### 3.1 实现源码
 [%PanoSimDatabaseHome%/Plugin/Agent/HowTo_Bus_judge.py](PanoSimDatabase/Plugin/Agent/HowTo_Bus_judge.py)
 
 ### 3.2 实验运行时, 修改judge总线
