@@ -12,7 +12,7 @@
   - [驾驶员控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/driver_signal)
   - [算法控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/algorithm)
   - [期望速度控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/expect_speed)
-  - [期望轨迹控制信号](#todo:xDriver_path_input)
+  - [期望轨迹控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/expect_trajectory)
   - [加速度控制信号](#todo:xDriver_accel_input)
   - [前轮转角控制信号](#todo:xDriver_road_wheel_angle_input)
 - 传感器
