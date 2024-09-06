@@ -1,4 +1,4 @@
-# PanoSim 分割图传感器
+# PanoSim 分割图感知器
 
 ## 1. 安装部署
 
@@ -13,7 +13,7 @@
 ![image](docs/images/open.jpg)
 
 
-## 3. 分割图传感器数据可视化
+## 3. 分割图感知器数据可视化
 
 ### 3.1 可视化实现源码
 [%PanoSimDatabaseHome%/Plugin/Agent/HowTo_SegmentationPerception.py](PanoSimDatabase/Plugin/Agent/HowTo_SegmentationPerception.py)

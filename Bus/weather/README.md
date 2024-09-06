@@ -1,4 +1,4 @@
-# PanoSim weather总线
+# PanoSim weather总线：设置动态天气光照
 
 ## 1. 安装部署
 

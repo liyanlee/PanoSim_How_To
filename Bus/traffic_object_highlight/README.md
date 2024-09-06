@@ -1,4 +1,4 @@
-# PanoSim traffic_object_highlight总线
+# PanoSim traffic_object_highlight总线：设置交通参与物高亮
 
 ## 1. 安装部署
 

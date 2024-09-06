@@ -1,4 +1,4 @@
-# PanoSim judge总线
+# PanoSim 碰撞评估器(judge总线)
 
 ## 1. 安装部署
 
@@ -13,7 +13,7 @@
 ![image](docs/images/open.jpg)
 
 
-## 3. judge总线使用方法
+## 3. 碰撞评估器的实现与使用
 
 ### 3.1 实现源码
 [%PanoSimDatabaseHome%/Plugin/Agent/HowTo_Bus_judge.py](PanoSimDatabase/Plugin/Agent/HowTo_Bus_judge.py)
@@ -24,4 +24,3 @@
 ### 3.3 实验结束后, 打开PlotBuilder, 查看judge总线
 ![image](docs/images/open_plot.jpg)
 ![image](docs/images/judge_bus.jpg)
-

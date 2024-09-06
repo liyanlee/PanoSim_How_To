@@ -1,4 +1,4 @@
-# PanoSim ego_traffic总线
+# PanoSim ego_traffic总线：获取主车所在车道、前方交叉口、SL坐标系位置
 
 ## 1. 安装部署
 

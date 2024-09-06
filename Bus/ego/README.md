@@ -1,4 +1,4 @@
-# PanoSim ego总线
+# PanoSim ego总线：获取主车位姿、速度
 
 ## 1. 安装部署
 

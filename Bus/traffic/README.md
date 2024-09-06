@@ -1,4 +1,4 @@
-# PanoSim traffic总线
+# PanoSim traffic总线：获取交通参与物类型、外形、位姿、速度
 
 ## 1. 安装部署
 

@@ -1,4 +1,4 @@
-# PanoSim traffic_light总线
+# PanoSim traffic_light总线：获取交通灯的方向、颜色、倒计时
 
 ## 1. 安装部署
 

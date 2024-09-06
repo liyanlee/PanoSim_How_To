@@ -1,4 +1,4 @@
-# PanoSim 目标感知传感器
+# PanoSim 目标感知器
 
 ## 1. 安装部署
 
@@ -13,7 +13,7 @@
 ![image](docs/images/open.jpg)
 
 
-## 3. 目标感知传感器数据可视化
+## 3. 目标感知器数据可视化
 
 ### 3.1 可视化实现源码
 [%PanoSimDatabaseHome%/Plugin/Agent/HowTo_ObjectPerception.py](PanoSimDatabase/Plugin/Agent/HowTo_ObjectPerception.py)

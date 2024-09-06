@@ -1,4 +1,4 @@
-# PanoSim warning总线
+# PanoSim warning总线：设置告警信息
 
 ## 1. 安装部署
 
