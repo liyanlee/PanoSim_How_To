@@ -26,6 +26,8 @@ def ModelStart(userData):
 def ModelOutput(userData):
     collision_event = 1 if check_collision(userData) else 0
     userData['judge'].writeHeader(*(userData['time'], collision_event))
+    if collision_event == 1:
+        stopSimulation()
 
 def ModelTerminate(userData):
     pass
