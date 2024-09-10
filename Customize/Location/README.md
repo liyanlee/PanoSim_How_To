@@ -2,7 +2,7 @@
 
 ## 1. 获取地图并导入(可选)
 ### 1.1 获取地图文件
-例如: 从[www.openstreetmap.org](www.openstreetmap.org)下载地图[文件](PanoSimDatabase/World/FromOpenStreetMap.osm)
+例如: 从[www.openstreetmap.org](https://www.openstreetmap.org)下载地图文件[%PanoSimDatabase%/World/FromOpenStreetMap.osm](PanoSimDatabase/World/FromOpenStreetMap.osm)
 
 ### 1.2 导入地图文件
 ![image](docs/images/import_osm.jpg)
