@@ -15,7 +15,7 @@
   - [期望轨迹控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/expect_trajectory)
   - [加速度控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/acceleration)
   - [前轮转角控制信号](https://github.com/liyanlee/PanoSim_How_To/tree/main/EgoControl/front_wheel_angle)
-- 传感器
+- 使用传感器
   - 感知器
     - [车道线感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/LaneInfoPerception)
     - [目标感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Sensor/Perception/ObjectPerception)
@@ -54,9 +54,14 @@
     - [告警信息](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/warning)
     - [交通参与物高亮](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_object_highlight)
     - [动态天气光照](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/weather)
-- 评估器
-  - [碰撞评估器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/judge)
+    - [同步阻塞运行模式](#todo)
 - 算法
+- 定制插件
+  - 传感器
+    - [定位器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Customize/Location)
+    - [目标感知器](#todo)
+  - 评估器
+    - [碰撞评估器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/judge)
 - 联合仿真
   - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
   - [与Autoware联合仿真](https://github.com/wobuzhuchele/PanoSim-Autoware)
