@@ -1,0 +1,76 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="FromOpenStreetMap" traffic="true" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="1447.82" Y="254.95" type="Road" Lane="629145158#0_0" />
+        <KeyPoint X="1243.09" Y="337.65" type="Road" Lane="629145158#1_0" />
+        <KeyPoint X="1048.96" Y="317.58" type="Road" Lane="-629145161#1_0" />
+        <KeyPoint X="1035.7" Y="205.74" type="Road" Lane="629145154#4_0" />
+        <KeyPoint X="1213.17" Y="139.42" type="Road" Lane="629145154#4_0" />
+        <KeyPoint X="1387.68" Y="249.82" type="Road" Lane="629145160#0_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="1447.82" Y="254.95" />
+        <WayPoint X="1411.72" Y="278.19" />
+        <WayPoint X="1408.42" Y="280.15" />
+        <WayPoint X="1404.91" Y="281.94" />
+        <WayPoint X="1401.3" Y="283.53" />
+        <WayPoint X="1397.7" Y="284.89" />
+        <WayPoint X="1298.55" Y="318.89" />
+        <WayPoint X="1243.09" Y="337.65" />
+        <WayPoint X="1145.18" Y="370.77" />
+        <WayPoint X="1090.7" Y="387.9" />
+        <WayPoint X="1086.85" Y="388.53" />
+        <WayPoint X="1083.73" Y="387.77" />
+        <WayPoint X="1081.34" Y="385.62" />
+        <WayPoint X="1079.7" Y="382.07" />
+        <WayPoint X="1074.32" Y="364.24" />
+        <WayPoint X="1062.74" Y="337.67" />
+        <WayPoint X="1048.96" Y="317.58" />
+        <WayPoint X="1029.33" Y="288.96" />
+        <WayPoint X="991.32" Y="240.93" />
+        <WayPoint X="989.25" Y="237.36" />
+        <WayPoint X="988.95" Y="234.12" />
+        <WayPoint X="990.42" Y="231.22" />
+        <WayPoint X="993.66" Y="228.66" />
+        <WayPoint X="1010.36" Y="219" />
+        <WayPoint X="1035.7" Y="205.74" />
+        <WayPoint X="1077.25" Y="183.99" />
+        <WayPoint X="1126" Y="163.68" />
+        <WayPoint X="1213.17" Y="139.42" />
+        <WayPoint X="1219.88" Y="137.55" />
+        <WayPoint X="1301.72" Y="117.61" />
+        <WayPoint X="1305.39" Y="117.29" />
+        <WayPoint X="1305.54" Y="117.34" />
+        <WayPoint X="1308.5" Y="118.26" />
+        <WayPoint X="1311.06" Y="120.53" />
+        <WayPoint X="1313.05" Y="124.1" />
+        <WayPoint X="1317.57" Y="135.19" />
+        <WayPoint X="1387.68" Y="249.82" />
+      </WayPoints>
+      <Edges>
+        <Edge id="629145158#0" Direction="S" />
+        <Edge id="629145158#1" Direction="S" />
+        <Edge id="-629145161#1" Direction="L" />
+        <Edge id="629145154#4" Direction="L" />
+        <Edge id="629145160#0" Direction="L" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="10" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_Customize_Sensor_Location.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
