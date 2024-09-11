@@ -16,7 +16,7 @@
 ## 3. 碰撞评估器的实现与使用
 
 ### 3.1 实现源码
-[%PanoSimDatabaseHome%/Plugin/Agent/HowTo_Bus_judge.py](PanoSimDatabase/Plugin/Agent/HowTo_Bus_judge.py)
+[%PanoSimDatabaseHome%/Plugin/Evaluator/HowTo_Bus_judge.py](PanoSimDatabase/Plugin/Evaluator/HowTo_Bus_judge.py)
 
 ### 3.2 实验运行时, 修改judge总线
 ![image](docs/images/visualization.jpg)

@@ -26,11 +26,12 @@
   <TrafficObjects />
   <Disturbance />
   <Agent>
-    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_Bus_judge.py" Parameters="" Parameter="True" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
   </Agent>
-  <Evaluator />
+  <Evaluator>
+    <Plugin link="HowTo_Bus_judge.py" hostId="0" nodeId="1" Parameters="" Parameter="True" />
+  </Evaluator>
   <Simulation Solver="ode1" Step="0.001" StopTime="20" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
   <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
 </Experiment>
