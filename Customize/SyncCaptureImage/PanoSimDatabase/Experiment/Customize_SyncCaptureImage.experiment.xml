@@ -1,0 +1,45 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown" traffic="true" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_2Camera" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="80" Y="1.75" type="Road" Lane="2000_1" />
+        <KeyPoint X="25.89" Y="1.75" type="Road" Lane="1000_1" />
+        <KeyPoint X="-38.62" Y="1.75" type="Road" Lane="1007_1" />
+        <KeyPoint X="-71.65" Y="1.75" type="Road" Lane="3000_1" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="80" Y="1.75" />
+        <WayPoint X="50" Y="1.75" />
+        <WayPoint X="25.89" Y="1.75" />
+        <WayPoint X="14.3" Y="1.75" />
+        <WayPoint X="-14.3" Y="1.75" />
+        <WayPoint X="-38.62" Y="1.75" />
+        <WayPoint X="-50" Y="1.75" />
+        <WayPoint X="-71.65" Y="1.75" />
+      </WayPoints>
+      <Edges>
+        <Edge id="2000" Direction="S" />
+        <Edge id="1000" Direction="S" />
+        <Edge id="1007" Direction="S" />
+        <Edge id="3000" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="20" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance>
+    <Plugin link="xDriver_smartPlanner.py" hostId="0" nodeId="0" />
+  </Disturbance>
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="HowTo_Customize_SyncCaptureImage.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="3" Speed="0" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
