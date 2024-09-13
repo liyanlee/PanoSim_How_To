@@ -9,12 +9,12 @@ def ModelStart(userData):
     width, height = 320, 240
     userData['camera0'] = BusAccessor(userData['busId'], 'MonoCameraSensor.0', 'time@i,%d@[,r@b,g@b,b@b' % (width * height))
     userData['camera1'] = BusAccessor(userData['busId'], 'MonoCameraSensor.1', 'time@i,%d@[,r@b,g@b,b@b' % (width * height))
-    userData['floder0'] = os.environ["PanoSimDatabaseHome"] + "/Experiment/" + userData["outputPath"] + "/camera0/"
-    userData['floder1'] = os.environ["PanoSimDatabaseHome"] + "/Experiment/" + userData["outputPath"] + "/camera1/"
-    if not Path(userData["floder0"]).exists():
-        os.mkdir(userData["floder0"])
-    if not Path(userData["floder1"]).exists():
-        os.mkdir(userData["floder1"])
+    userData['folder0'] = os.environ["PanoSimDatabaseHome"] + "/Experiment/" + userData["outputPath"] + "/camera0/"
+    userData['folder1'] = os.environ["PanoSimDatabaseHome"] + "/Experiment/" + userData["outputPath"] + "/camera1/"
+    if not Path(userData["folder0"]).exists():
+        os.mkdir(userData["folder0"])
+    if not Path(userData["folder1"]).exists():
+        os.mkdir(userData["folder1"])
 
 def ModelOutput(userData):
     ts = userData['time']
@@ -24,12 +24,12 @@ def ModelOutput(userData):
     if math.floor(ts / gap) != math.floor((ts - 10) / gap):
         while True:
             if userData['camera0'].readHeader()[0] == ts and not camera0_ok:
-                file = userData['floder0'] + str(ts) + '.png'
+                file = userData['folder0'] + str(ts) + '.png'
                 image = np.frombuffer(userData["camera0"].getBus()[8:], dtype=np.uint8).reshape((height, width, 3))
                 imageio.imsave(file , image)
                 camera0_ok = True
             if userData['camera1'].readHeader()[0] == ts and not camera1_ok:
-                file = userData['floder1'] + str(ts) + '.png'
+                file = userData['folder1'] + str(ts) + '.png'
                 image = np.frombuffer(userData["camera1"].getBus()[8:], dtype=np.uint8).reshape((height, width, 3))
                 imageio.imsave(file , image)
                 camera1_ok = True
