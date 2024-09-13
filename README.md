@@ -54,9 +54,10 @@
     - [告警信息](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/warning)
     - [交通参与物高亮](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_object_highlight)
     - [动态天气光照](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/weather)
-    - [同步阻塞运行模式](#todo)
 - 算法
 - 定制插件
+  - 同步阻塞运行模式
+    - [同步保存图像](https://github.com/liyanlee/PanoSim_How_To/tree/main/Customize/SyncCaptureImage)
   - 传感器
     - [定位器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Customize/Location)
     - [目标感知器](https://github.com/liyanlee/PanoSim_How_To/tree/main/Customize/ObjectPerception)
