@@ -10,7 +10,9 @@
         <WayPoint X="-70" Y="5.25" />
         <WayPoint X="-170" Y="5.25" />
       </WayPoints>
-      <Edges />
+      <Edges>
+        <Edge id="3000" Direction="S" />
+      </Edges>
     </Trajectory>
     <SpeedTable>
       <SpeedTime Time="0" Speed="0" />
@@ -20,7 +22,7 @@
   <TrafficObjects />
   <Disturbance />
   <Agent>
-    <Plugin internal="false" hostId="0" nodeId="0" link="HowTo_Bus_ego_control.py" Parameters="" Parameter="False" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="HowTo_EgoCtrl_driver_signal.py" Parameters="" Parameter="True" />
   </Agent>
   <Evaluator />
   <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
