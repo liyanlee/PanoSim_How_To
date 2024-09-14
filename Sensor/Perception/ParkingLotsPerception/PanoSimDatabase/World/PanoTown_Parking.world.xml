@@ -30,7 +30,7 @@
       <Arc Edge="25000,25001" Type="SingleLane" Interchange="False" Tunnel="False" />
     </Arcs>
   </Field>
-  <Net link="PanoTown_Parking\PanoTown_Parking.net.xml" Seed="0" Style="City" Elevation="true">
+  <Net link="PanoTown\PanoTown.net.xml" Seed="0" Style="City" Elevation="true">
     <Lanes Texture="Asphalt" FrictionCoefficient="0.8" Wetness="0" SnowPack="0" Cracks="0.1" Dirtiness="0.3" Opacity="1" />
     <LaneLines>
       <LaneLine id="18001_0" Direction="Right" Type="SingleWhite" To="18005_0" Shape="-7,92.5,0 -7.00000000000001,107.5,0" />
