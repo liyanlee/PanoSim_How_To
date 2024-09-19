@@ -1,0 +1,94 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoHighway" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="8">
+      <KeyPoints>
+        <KeyPoint X="397.13" Y="143.67" type="Road" Lane="22000_2" />
+        <KeyPoint X="271.84" Y="144.62" type="Road" Lane="3002_2" />
+        <KeyPoint X="230.19" Y="144.62" type="Road" Lane="2000_2" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="397.13" Y="143.67" />
+        <WayPoint X="394.22" Y="143.77" />
+        <WayPoint X="393.22" Y="143.81" />
+        <WayPoint X="392.19" Y="143.84" />
+        <WayPoint X="391.19" Y="143.87" />
+        <WayPoint X="390.19" Y="143.9" />
+        <WayPoint X="389.19" Y="143.93" />
+        <WayPoint X="388.19" Y="143.96" />
+        <WayPoint X="387.16" Y="143.99" />
+        <WayPoint X="386.16" Y="144.01" />
+        <WayPoint X="385.2" Y="144.04" />
+        <WayPoint X="384.17" Y="144.07" />
+        <WayPoint X="383.17" Y="144.09" />
+        <WayPoint X="382.17" Y="144.12" />
+        <WayPoint X="381.17" Y="144.14" />
+        <WayPoint X="380.17" Y="144.17" />
+        <WayPoint X="379.13" Y="144.19" />
+        <WayPoint X="378.17" Y="144.21" />
+        <WayPoint X="377.17" Y="144.24" />
+        <WayPoint X="376.13" Y="144.26" />
+        <WayPoint X="375.13" Y="144.28" />
+        <WayPoint X="374.13" Y="144.3" />
+        <WayPoint X="373.13" Y="144.32" />
+        <WayPoint X="372.13" Y="144.34" />
+        <WayPoint X="371.1" Y="144.36" />
+        <WayPoint X="370.1" Y="144.37" />
+        <WayPoint X="369.13" Y="144.39" />
+        <WayPoint X="368.1" Y="144.41" />
+        <WayPoint X="367.1" Y="144.42" />
+        <WayPoint X="366.1" Y="144.44" />
+        <WayPoint X="365.1" Y="144.45" />
+        <WayPoint X="364.1" Y="144.47" />
+        <WayPoint X="363.1" Y="144.48" />
+        <WayPoint X="362.1" Y="144.5" />
+        <WayPoint X="361.07" Y="144.51" />
+        <WayPoint X="360.07" Y="144.52" />
+        <WayPoint X="359.07" Y="144.53" />
+        <WayPoint X="358.07" Y="144.54" />
+        <WayPoint X="357.07" Y="144.55" />
+        <WayPoint X="356.07" Y="144.56" />
+        <WayPoint X="355.07" Y="144.57" />
+        <WayPoint X="354.03" Y="144.58" />
+        <WayPoint X="353.03" Y="144.58" />
+        <WayPoint X="352.03" Y="144.59" />
+        <WayPoint X="351.03" Y="144.59" />
+        <WayPoint X="350.07" Y="144.6" />
+        <WayPoint X="349.03" Y="144.61" />
+        <WayPoint X="348" Y="144.62" />
+        <WayPoint X="347.03" Y="144.61" />
+        <WayPoint X="346.03" Y="144.62" />
+        <WayPoint X="345" Y="144.62" />
+        <WayPoint X="344" Y="144.62" />
+        <WayPoint X="343" Y="144.62" />
+        <WayPoint X="342" Y="144.62" />
+        <WayPoint X="342" Y="144.62" />
+        <WayPoint X="271.84" Y="144.62" />
+        <WayPoint X="242" Y="144.62" />
+        <WayPoint X="242" Y="144.62" />
+        <WayPoint X="230.19" Y="144.62" />
+      </WayPoints>
+      <Edges>
+        <Edge id="22000" Direction="S" />
+        <Edge id="3002" Direction="S" />
+        <Edge id="2000" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="18" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance>
+    <Plugin link="HowTo_CutIn.py" hostId="0" nodeId="0" Parameters="" Parameter="True" />
+  </Disturbance>
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="40" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
