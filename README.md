@@ -58,6 +58,7 @@
     - [AEB](https://github.com/liyanlee/PanoSim_How_To/tree/main/Algorithm/AEB)
 - 交通
   - [CutIn](https://github.com/liyanlee/PanoSim_How_To/tree/main/Traffic/CutIn)
+  - [十字路口红绿灯](https://github.com/liyanlee/PanoSim_How_To/tree/main/Traffic/CrossroadTrafficLight)
 - 定制插件
   - 同步阻塞运行模式
     - [同步保存图像](https://github.com/liyanlee/PanoSim_How_To/tree/main/Customize/SyncCaptureImage)
