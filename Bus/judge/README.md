@@ -2,7 +2,7 @@
 
 ## 1. 安装部署
 
-### 1.1 下载[文件](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/judge/PanoSimDatabase)
+### 1.1 下载[文件](./PanoSimDatabase)
 
 ### 1.2 查询本地对应目录
 ![image](../ego/docs/images/folder.jpg)
