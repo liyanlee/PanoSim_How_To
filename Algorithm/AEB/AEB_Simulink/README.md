@@ -17,7 +17,7 @@
 ## 3. AEB Sample Simulink
 
 ### 3.1 Simulink 源代码
-[%PanoSimDatabaseHome%/Experiment/AEBSampleSimulink/Temp/AEBSampleSimulink.mdl](PanoSimDatabase\Experiment\AEBSampleSimulink\Temp\AEBSampleSimulink.mdl)
+[%PanoSimDatabaseHome%/Experiment/AEBSampleSimulink/Temp/AEBSampleSimulink.mdl](PanoSimDatabase/Experiment/AEBSampleSimulink/Temp/AEBSampleSimulink.mdl)
 
 ### 3.2 可视化运行
 ![image](docs/images/visualization.jpg)
