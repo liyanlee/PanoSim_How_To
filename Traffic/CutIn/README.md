@@ -8,7 +8,7 @@
 
 ## 2. 安装部署
 
-### 2.1 下载[文件](https://github.com/liyanlee/PanoSim_How_To/tree/main/Traffic/CutIn/PanoSimDatabase)
+### 2.1 下载[文件](./PanoSimDatabase)
 
 ### 2.2 查询本地对应目录
 ![image](../../Bus/ego/docs/images/folder.jpg)
