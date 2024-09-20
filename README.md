@@ -55,6 +55,7 @@
     - [交通参与物高亮](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/traffic_object_highlight)
     - [动态天气光照](https://github.com/liyanlee/PanoSim_How_To/tree/main/Bus/weather)
 - 算法
+    - [AEB](https://github.com/liyanlee/PanoSim_How_To/tree/main/Algorithm/AEB)
 - 交通
   - [CutIn](https://github.com/liyanlee/PanoSim_How_To/tree/main/Traffic/CutIn)
 - 定制插件
