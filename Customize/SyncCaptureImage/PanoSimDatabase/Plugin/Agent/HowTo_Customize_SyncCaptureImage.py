@@ -26,12 +26,12 @@ def ModelOutput(userData):
             if userData['camera0'].readHeader()[0] == ts and not camera0_ok:
                 file = userData['folder0'] + str(ts) + '.png'
                 image = np.frombuffer(userData["camera0"].getBus()[8:], dtype=np.uint8).reshape((height, width, 3))
-                imageio.imsave(file , image)
+                imageio.imsave(file, image)
                 camera0_ok = True
             if userData['camera1'].readHeader()[0] == ts and not camera1_ok:
                 file = userData['folder1'] + str(ts) + '.png'
                 image = np.frombuffer(userData["camera1"].getBus()[8:], dtype=np.uint8).reshape((height, width, 3))
-                imageio.imsave(file , image)
+                imageio.imsave(file, image)
                 camera1_ok = True
             if camera0_ok and camera1_ok:
                 break

@@ -72,34 +72,40 @@ def calculate_occlusion(output, timestamp, objects, ego_x, ego_y, ego_z, ego_yaw
     output.writeHeader(*(timestamp, index))
 
 def ModelStart(userData):
+    userData['distance'] = float(100)
+    userData['fov'] = float(60)
+    userData['yaw'] = float(0)
+    userData['occlusion'] = False
+
     bus_id = userData['busId']
-    userData['output'] = BusAccessor(bus_id, 'Customize_Sensor_ObjectPerception', userData["parameters"]["OutputFormat"])
+    OutputFormat = 'time@i,100@[,id@i,type@b,shape@i,range_center@f,range_bbox@f,azimuth_angle@f,elevation_angle@f,velocity@f,heading@f'
+    userData['output'] = BusAccessor(bus_id, 'Customize_Sensor_ObjectPerception', OutputFormat)
     userData['ego'] = BusAccessor(bus_id, 'ego', 'time@i,x@d,y@d,z@d,yaw@d,pitch@d,roll@d,speed@d')
     userData['traffic'] = DoubleBusReader(bus_id, 'traffic', 'time@i,100@[,id@i,type@b,shape@i,x@f,y@f,z@f,yaw@f,pitch@f,roll@f,speed@f')
-    if userData['parameters']['show_graph'] == 'TRUE':
-        fov = float(userData['parameters']['fov'])
-        yaw_install = float(userData['parameters']['yaw'])
-        distance = float(userData['parameters']['distance'])
-        plt.ion()
-        userData['figure'] = plt.figure('Customize_Sensor_ObjectPerception')
-        userData['ax'] = userData['figure'].add_subplot(projection='polar')
-        if fov < 360:
-            fov = np.radians(fov)
-            userData['ax'].set_xlim([-fov/2, fov/2])
-        userData['ax'].set_ylim([0, distance])
-        userData['ax'].set_theta_direction(-1)
-        userData['ax'].set_theta_offset(np.pi/2 - np.radians(yaw_install))
-        userData['figure'].canvas.draw()
-        userData['bg'] = userData['figure'].canvas.copy_from_bbox(userData['ax'].bbox)
-        userData['0'] = userData['ax'].scatter([], [], c='b', marker='s', label='vehicle')
-        userData['1'] = userData['ax'].scatter([], [], c='g', marker='^', label='pedestrian')
-        userData['2'] = userData['ax'].scatter([], [], c='r', marker='d', label='other')
+
+    distance = float(userData['distance'])
+    fov = float(userData['fov'])
+    yaw_install = float(userData['yaw'])
+    plt.ion()
+    userData['figure'] = plt.figure('Customize_Sensor_ObjectPerception')
+    userData['ax'] = userData['figure'].add_subplot(projection='polar')
+    if fov < 360:
+        fov = np.radians(fov)
+        userData['ax'].set_xlim([-fov/2, fov/2])
+    userData['ax'].set_ylim([0, distance])
+    userData['ax'].set_theta_direction(-1)
+    userData['ax'].set_theta_offset(np.pi/2 - np.radians(yaw_install))
+    userData['figure'].canvas.draw()
+    userData['bg'] = userData['figure'].canvas.copy_from_bbox(userData['ax'].bbox)
+    userData['0'] = userData['ax'].scatter([], [], c='b', marker='s', label='vehicle')
+    userData['1'] = userData['ax'].scatter([], [], c='g', marker='^', label='pedestrian')
+    userData['2'] = userData['ax'].scatter([], [], c='r', marker='d', label='other')
 
 def ModelOutput(userData):
-    fov = float(userData['parameters']['fov'])
-    distance = float(userData['parameters']['distance'])
-    yaw_install = np.radians(float(userData['parameters']['yaw']))
-    calc_occlusion = userData['parameters']['occlusion'] == 'TRUE'
+    distance = float(userData['distance'])
+    fov = float(userData['fov'])
+    yaw_install = np.radians(float(userData['yaw']))
+    calc_occlusion = userData['occlusion'] == 'TRUE'
     output = userData['output']
     timestamp = userData['time']
 
@@ -138,25 +144,23 @@ def ModelOutput(userData):
     else:
         output.writeHeader(*(timestamp, index))
 
-    if userData['parameters']['show_graph'] == 'TRUE':
-        userData['figure'].canvas.restore_region(userData['bg'])
-        objects = {0:[], 1:[], 2:[]}
-        _, width = output.readHeader()
-        for index in range(width):
-            _, type, _, _, range_bbox, azimuth_angle, _, _, _ = output.readBody(index)
-            objects[type].append([azimuth_angle, range_bbox])
-        for key in objects.keys():
-            if len(objects[key]) > 0:
-                userData[str(key)].set_offsets((objects[key]))
-            else:
-                userData[str(key)].set_offsets([[]])
-            userData['ax'].draw_artist(userData[str(key)])
-        handles, labels = plt.gca().get_legend_handles_labels()
-        label2handle = dict(zip(labels, handles))
-        plt.legend(label2handle.values(), label2handle.keys())
-        userData['figure'].canvas.blit(userData['ax'].bbox)
-        userData['figure'].canvas.flush_events()
+    userData['figure'].canvas.restore_region(userData['bg'])
+    objects = {0:[], 1:[], 2:[]}
+    _, width = output.readHeader()
+    for index in range(width):
+        _, type, _, _, range_bbox, azimuth_angle, _, _, _ = output.readBody(index)
+        objects[type].append([azimuth_angle, range_bbox])
+    for key in objects.keys():
+        if len(objects[key]) > 0:
+            userData[str(key)].set_offsets((objects[key]))
+        else:
+            userData[str(key)].set_offsets([[]])
+        userData['ax'].draw_artist(userData[str(key)])
+    handles, labels = plt.gca().get_legend_handles_labels()
+    label2handle = dict(zip(labels, handles))
+    plt.legend(label2handle.values(), label2handle.keys())
+    userData['figure'].canvas.blit(userData['ax'].bbox)
+    userData['figure'].canvas.flush_events()
 
 def ModelTerminate(userData):
-    if userData['parameters']['show_graph'] == 'TRUE':
-        plt.close()
+    plt.close()
