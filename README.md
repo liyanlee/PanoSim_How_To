@@ -57,6 +57,7 @@
     - [动态天气光照](./Bus/weather)
 - 算法
     - [AEB](./Algorithm/AEB)
+    - [ACC](./Algorithm/ACC)
 - 交通
   - [CutIn](./Traffic/CutIn)
   - [十字路口红绿灯](./Traffic/CrossroadTrafficLight)
