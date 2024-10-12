@@ -50,6 +50,7 @@
     - [交通灯的方向、颜色、倒计时](./Bus/traffic_light)
     - [主车所在车道、前方交叉口、SL坐标系位置](./Bus/ego_traffic)
     - [主车信号(油门、刹车、方向盘等)](./Bus/ego_driver)
+    - [交通标志](./Bus/traffic_sign)
   - 设置数据
     - [告警信息](./Bus/warning)
     - [交通参与物高亮](./Bus/traffic_object_highlight)
