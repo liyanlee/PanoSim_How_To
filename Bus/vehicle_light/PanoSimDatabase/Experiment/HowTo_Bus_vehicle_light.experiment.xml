@@ -1,0 +1,171 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown_night" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="70" Y="5.25" type="Road" Lane="2000_0" />
+        <KeyPoint X="26.31" Y="5.25" type="Road" Lane="1000_0" />
+        <KeyPoint X="-34.41" Y="5.25" type="Road" Lane="1007_0" />
+        <KeyPoint X="-129.82" Y="5.25" type="Road" Lane="3000_0" />
+        <KeyPoint X="-187.47" Y="5.25" type="Road" Lane="4004_0" />
+        <KeyPoint X="-236.96" Y="5.25" type="Road" Lane="4002_0" />
+        <KeyPoint X="-324.71" Y="5.25" type="Road" Lane="5001_0" />
+        <KeyPoint X="-369.53" Y="7.84" type="Road" Lane="12003_0" />
+        <KeyPoint X="-394.75" Y="42.73" type="Road" Lane="12002_0" />
+        <KeyPoint X="-394.75" Y="129.97" type="Road" Lane="6001_0" />
+        <KeyPoint X="-358.15" Y="194" type="Road" Lane="9001_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="70" Y="5.25" />
+        <WayPoint X="50" Y="5.25" />
+        <WayPoint X="50" Y="5.25" />
+        <WayPoint X="26.31" Y="5.25" />
+        <WayPoint X="14.3" Y="5.25" />
+        <WayPoint X="-14.3" Y="5.25" />
+        <WayPoint X="-34.41" Y="5.25" />
+        <WayPoint X="-50" Y="5.25" />
+        <WayPoint X="-50" Y="5.25" />
+        <WayPoint X="-129.82" Y="5.25" />
+        <WayPoint X="-150" Y="5.25" />
+        <WayPoint X="-150" Y="5.25" />
+        <WayPoint X="-187.47" Y="5.25" />
+        <WayPoint X="-199.87" Y="5.25" />
+        <WayPoint X="-223.38" Y="5.25" />
+        <WayPoint X="-236.96" Y="5.25" />
+        <WayPoint X="-250" Y="5.25" />
+        <WayPoint X="-250" Y="5.25" />
+        <WayPoint X="-324.71" Y="5.25" />
+        <WayPoint X="-349.85" Y="5.25" />
+        <WayPoint X="-349.85" Y="5.25" />
+        <WayPoint X="-351.63" Y="5.27" />
+        <WayPoint X="-353.48" Y="5.34" />
+        <WayPoint X="-356.31" Y="5.53" />
+        <WayPoint X="-359.11" Y="5.82" />
+        <WayPoint X="-361.89" Y="6.21" />
+        <WayPoint X="-364.68" Y="6.72" />
+        <WayPoint X="-366.46" Y="7.09" />
+        <WayPoint X="-369.25" Y="7.76" />
+        <WayPoint X="-369.53" Y="7.84" />
+        <WayPoint X="-370.98" Y="8.23" />
+        <WayPoint X="-373.7" Y="9.08" />
+        <WayPoint X="-376.38" Y="10.01" />
+        <WayPoint X="-378.1" Y="10.67" />
+        <WayPoint X="-379.86" Y="11.39" />
+        <WayPoint X="-380.29" Y="11.59" />
+        <WayPoint X="-383.32" Y="13.04" />
+        <WayPoint X="-386" Y="14.46" />
+        <WayPoint X="-388.32" Y="15.84" />
+        <WayPoint X="-390.29" Y="17.19" />
+        <WayPoint X="-391.89" Y="18.5" />
+        <WayPoint X="-393.14" Y="19.77" />
+        <WayPoint X="-394.04" Y="21.01" />
+        <WayPoint X="-394.57" Y="22.21" />
+        <WayPoint X="-394.75" Y="23.38" />
+        <WayPoint X="-394.75" Y="42.73" />
+        <WayPoint X="-394.75" Y="50" />
+        <WayPoint X="-394.75" Y="50" />
+        <WayPoint X="-394.75" Y="129.97" />
+        <WayPoint X="-394.75" Y="149.85" />
+        <WayPoint X="-394.75" Y="149.85" />
+        <WayPoint X="-394.74" Y="150.9" />
+        <WayPoint X="-394.71" Y="151.79" />
+        <WayPoint X="-394.67" Y="152.69" />
+        <WayPoint X="-394.61" Y="153.58" />
+        <WayPoint X="-394.53" Y="154.47" />
+        <WayPoint X="-394.43" Y="155.36" />
+        <WayPoint X="-394.31" Y="156.24" />
+        <WayPoint X="-394.18" Y="157.13" />
+        <WayPoint X="-394.03" Y="158" />
+        <WayPoint X="-393.86" Y="158.88" />
+        <WayPoint X="-393.66" Y="159.78" />
+        <WayPoint X="-393.47" Y="160.65" />
+        <WayPoint X="-393.25" Y="161.48" />
+        <WayPoint X="-393" Y="162.38" />
+        <WayPoint X="-392.75" Y="163.23" />
+        <WayPoint X="-392.48" Y="164.07" />
+        <WayPoint X="-392.19" Y="164.91" />
+        <WayPoint X="-391.88" Y="165.76" />
+        <WayPoint X="-391.55" Y="166.61" />
+        <WayPoint X="-391.22" Y="167.42" />
+        <WayPoint X="-390.85" Y="168.27" />
+        <WayPoint X="-390.49" Y="169.07" />
+        <WayPoint X="-390.1" Y="169.86" />
+        <WayPoint X="-389.69" Y="170.67" />
+        <WayPoint X="-389.28" Y="171.44" />
+        <WayPoint X="-388.83" Y="172.24" />
+        <WayPoint X="-388.39" Y="173.01" />
+        <WayPoint X="-387.92" Y="173.75" />
+        <WayPoint X="-387.42" Y="174.53" />
+        <WayPoint X="-386.94" Y="175.26" />
+        <WayPoint X="-386.42" Y="175.99" />
+        <WayPoint X="-385.88" Y="176.74" />
+        <WayPoint X="-385.34" Y="177.45" />
+        <WayPoint X="-384.81" Y="178.13" />
+        <WayPoint X="-384.23" Y="178.83" />
+        <WayPoint X="-383.65" Y="179.5" />
+        <WayPoint X="-383.04" Y="180.17" />
+        <WayPoint X="-382.42" Y="180.84" />
+        <WayPoint X="-381.81" Y="181.47" />
+        <WayPoint X="-381.18" Y="182.11" />
+        <WayPoint X="-380.54" Y="182.71" />
+        <WayPoint X="-379.87" Y="183.31" />
+        <WayPoint X="-379.18" Y="183.92" />
+        <WayPoint X="-378.5" Y="184.5" />
+        <WayPoint X="-377.83" Y="185.05" />
+        <WayPoint X="-377.11" Y="185.6" />
+        <WayPoint X="-376.39" Y="186.15" />
+        <WayPoint X="-375.68" Y="186.65" />
+        <WayPoint X="-374.93" Y="187.16" />
+        <WayPoint X="-374.16" Y="187.67" />
+        <WayPoint X="-373.42" Y="188.14" />
+        <WayPoint X="-372.66" Y="188.59" />
+        <WayPoint X="-371.86" Y="189.05" />
+        <WayPoint X="-371.1" Y="189.47" />
+        <WayPoint X="-370.3" Y="189.88" />
+        <WayPoint X="-369.5" Y="190.28" />
+        <WayPoint X="-368.69" Y="190.66" />
+        <WayPoint X="-367.87" Y="191.03" />
+        <WayPoint X="-367.06" Y="191.37" />
+        <WayPoint X="-366.23" Y="191.7" />
+        <WayPoint X="-365.37" Y="192.02" />
+        <WayPoint X="-364.53" Y="192.33" />
+        <WayPoint X="-363.69" Y="192.6" />
+        <WayPoint X="-362.82" Y="192.87" />
+        <WayPoint X="-361.96" Y="193.12" />
+        <WayPoint X="-361.12" Y="193.35" />
+        <WayPoint X="-360.26" Y="193.55" />
+        <WayPoint X="-359.36" Y="193.76" />
+        <WayPoint X="-358.48" Y="193.94" />
+        <WayPoint X="-358.15" Y="194" />
+      </WayPoints>
+      <Edges>
+        <Edge id="2000" Direction="S" />
+        <Edge id="1000" Direction="S" />
+        <Edge id="1007" Direction="S" />
+        <Edge id="3000" Direction="S" />
+        <Edge id="4004" Direction="S" />
+        <Edge id="4002" Direction="S" />
+        <Edge id="5001" Direction="S" />
+        <Edge id="12003" Direction="S" />
+        <Edge id="12002" Direction="R" />
+        <Edge id="6001" Direction="S" />
+        <Edge id="9001" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="10" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_Bus_vehicle_light.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="30" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
