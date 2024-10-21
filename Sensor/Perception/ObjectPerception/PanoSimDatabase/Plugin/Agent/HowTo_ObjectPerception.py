@@ -14,27 +14,25 @@ def ModelOutput(userData):
     timestamp, count = userData['sensor'].readHeader()
     if timestamp > userData['last_time']:
         userData['last_time'] = timestamp
-
         plt.clf()
         axes = plt.axes()
         axes.set_aspect('equal')
         plt.title('Sensor: Object Perception')
-        plt.ylabel('X')
-        plt.ylim((-10, 110))
-        plt.yticks(np.arange(0, 110, 10))
-        plt.xlabel('Y')
+        plt.ylabel('Y')
+        plt.ylim((-60, 60))
+        plt.yticks(np.arange(-50, 60, 10))
+        plt.xlabel('X')
         plt.xlim((-60, 60))
         xTicks = np.arange(-50, 60, 10)
         plt.xticks(xTicks)
         axes.set_xticklabels(['{}'.format(i) for i in xTicks[::-1]])
-
         Type2Style = [('Vehicle', 'orange', 'o'), ('Pedestrian', 'pink', 'p'),
                       ('Other', 'purple', 'D'), ('Sign', 'blue', 'h'), ('Obstacle', 'cyan', 'H')]
         plt.scatter(x=0, y=0, color='red', marker='s', label='ego')
         for i in range(count):
             _, type, x, y, _, _, _, _, _ = userData['sensor'].readBody(i)
             label, color, marker = Type2Style[type]
-            plt.scatter(x=-y, y=x, c=color, marker=marker, label=label)
+            plt.scatter(x=x, y=y, c=color, marker=marker, label=label)
 
         handles, labels = plt.gca().get_legend_handles_labels()
         label2handle = dict(zip(labels, handles))

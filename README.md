@@ -55,6 +55,7 @@
     - [告警信息](./Bus/warning)
     - [交通参与物高亮](./Bus/traffic_object_highlight)
     - [动态天气光照](./Bus/weather)
+    - [车灯控制](./Bus/vehicle_light)
 - 算法
     - [AEB](./Algorithm/AEB)
     - [ACC](./Algorithm/ACC)

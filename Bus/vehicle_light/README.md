@@ -1,4 +1,4 @@
-# PanoSim traffic_light总线：获取交通灯的方向、颜色、倒计时
+# PanoSim 车灯控制
 
 ## 1. 安装部署
 
@@ -14,11 +14,13 @@
 ## 2. 运行实验
 ![image](docs/images/open.jpg)
 
+## 3. 车灯控制的实现与可视化
 
-## 3. traffic_light总线数据可视化
+### 3.1 打开驾驶舱模式
+![image](docs/images/cockpit.jpg)
 
-### 3.1 可视化实现源码
-[%PanoSimDatabaseHome%/Plugin/Agent/HowTo_Bus_traffic_light.py](PanoSimDatabase/Plugin/Agent/HowTo_Bus_traffic_light.py)
+### 3.2 可视化实现源码
+[%PanoSimDatabaseHome%/Plugin/Agent/HowTo_Bus_vehicle_light.py](PanoSimDatabase/Plugin/Agent/HowTo_Bus_vehicle_light.py)
 
-### 3.2 可视化运行
+### 3.3 可视化运行
 ![image](docs/images/visualization.jpg)

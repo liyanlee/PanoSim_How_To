@@ -17,8 +17,8 @@ def ModelOutput(userData):
         plt.clf()
         plt.axes().set_aspect('equal')
         plt.title('Bus: traffic')
-        plt.ylabel('X')
-        plt.xlabel('Y')
+        plt.xlabel('X')
+        plt.ylabel('Y')
         Type2Style = [('Vehicle', 'orange', 'o'), ('Pedestrian', 'pink', 'p'), ('Other', 'purple', 'D')]
         trafffic_bus = userData['traffic'].getReader(userData['time'])
         _, width = trafffic_bus.readHeader()
