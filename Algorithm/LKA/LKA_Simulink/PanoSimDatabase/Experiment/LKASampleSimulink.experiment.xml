@@ -209,24 +209,19 @@
         <WayPoint X="28.31" Y="-2813.21" />
         <WayPoint X="28.13" Y="-2812.22" />
         <WayPoint X="27.99" Y="-2811.43" />
-        <WayPoint X="27.99" Y="-2811.43" />
         <WayPoint X="21.98" Y="-2777.35" />
         <WayPoint X="16.06" Y="-2743.76" />
         <WayPoint X="12.34" Y="-2722.65" />
         <WayPoint X="11.12" Y="-2715.81" />
-        <WayPoint X="10.61" Y="-2712.92" />
         <WayPoint X="10.61" Y="-2712.92" />
         <WayPoint X="-4.06" Y="-2629.72" />
         <WayPoint X="-4.35" Y="-2628.08" />
         <WayPoint X="-5.73" Y="-2620.2" />
         <WayPoint X="-6.54" Y="-2615.61" />
         <WayPoint X="-6.74" Y="-2614.45" />
-        <WayPoint X="-6.74" Y="-2614.45" />
         <WayPoint X="-23.78" Y="-2517.86" />
         <WayPoint X="-24.14" Y="-2515.81" />
-        <WayPoint X="-24.14" Y="-2515.81" />
         <WayPoint X="-40.92" Y="-2420.66" />
-        <WayPoint X="-41.48" Y="-2417.48" />
         <WayPoint X="-41.48" Y="-2417.48" />
         <WayPoint X="-41.66" Y="-2416.45" />
         <WayPoint X="-41.83" Y="-2415.43" />
@@ -355,7 +350,6 @@
         <WayPoint X="-63.11" Y="-2294.78" />
         <WayPoint X="-63.19" Y="-2294.3" />
         <WayPoint X="-63.36" Y="-2293.4" />
-        <WayPoint X="-63.36" Y="-2293.4" />
         <WayPoint X="-63.62" Y="-2291.92" />
         <WayPoint X="-63.79" Y="-2290.95" />
         <WayPoint X="-63.96" Y="-2289.96" />
@@ -469,10 +463,10 @@
   <Disturbance />
   <Agent>
     <Plugin internal="false" hostId="0" nodeId="0" link="GroundTruth_Objects.py" distance="100" fov="60" yaw="0" occlusion="FALSE" show_graph="FALSE" OutputFormat="time@i,100@[,id@i,type@b,shape@i,range_center@f,range_bbox@f,azimuth_angle@f,elevation_angle@f,velocity@f,heading@f" Parameter="True" />
-    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_accel.dll" Parameters="" Parameter="True" />
     <Plugin internal="true" hostId="0" nodeId="0" link="LKASampleSimulink.mdl" Parameters="" Parameter="False" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xControl_accel.dll" Parameters="" Parameter="True" />
   </Agent>
   <Evaluator />
-  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" SoftRT="False" />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" SoftRT="false" />
   <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
 </Experiment>
