@@ -1,0 +1,1230 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="SimpleParkingArea" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="24.25" Y="16.8" type="Road" Lane="1005_0" />
+        <KeyPoint X="24.25" Y="24.46" type="Road" Lane="1006_0" />
+        <KeyPoint X="24.5" Y="43.64" type="Road" Lane="1004_0" />
+        <KeyPoint X="-13.99" Y="51.5" type="Road" Lane="1010_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="24.25" Y="16.8" />
+        <WayPoint X="24.25" Y="19" />
+        <WayPoint X="24.25" Y="24.46" />
+        <WayPoint X="24.25" Y="25" />
+        <WayPoint X="24.5" Y="39" />
+        <WayPoint X="24.5" Y="43.64" />
+        <WayPoint X="24.5" Y="44" />
+        <WayPoint X="24.41" Y="45.57" />
+        <WayPoint X="24.13" Y="46.96" />
+        <WayPoint X="23.94" Y="47.46" />
+        <WayPoint X="23.67" Y="48.17" />
+        <WayPoint X="23.02" Y="49.19" />
+        <WayPoint X="22.19" Y="50.02" />
+        <WayPoint X="21.17" Y="50.67" />
+        <WayPoint X="19.97" Y="51.13" />
+        <WayPoint X="18.58" Y="51.41" />
+        <WayPoint X="17.01" Y="51.5" />
+        <WayPoint X="-13.99" Y="51.5" />
+      </WayPoints>
+      <Edges>
+        <Edge id="1005" Direction="S" />
+        <Edge id="1006" Direction="S" />
+        <Edge id="1004" Direction="S" />
+        <Edge id="1010" Direction="L" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="3" />
+      <SpeedTime Time="1000" Speed="3" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects>
+    <TrafficObject type="Vehicle" shape="75">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-6" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-6" Y="46.31" />
+            <WayPoint X="-6" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="14">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="0.31" Y="27.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="0.31" Y="27.75" />
+            <WayPoint X="100.31" Y="27.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="49">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="4" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="4" Y="64.31" />
+            <WayPoint X="4" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="34">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="6.5" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="6.5" Y="64.31" />
+            <WayPoint X="6.5" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="67">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="9" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="9" Y="35.69" />
+            <WayPoint X="9" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="52">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-3.5" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-3.5" Y="53.69" />
+            <WayPoint X="-3.5" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="85">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="55.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="55.25" />
+            <WayPoint X="-73.31" Y="55.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="26">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="60.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="60.25" />
+            <WayPoint X="-73.31" Y="60.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="4">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="6.5" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="6.5" Y="35.69" />
+            <WayPoint X="6.5" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="44">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-1" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-1" Y="53.69" />
+            <WayPoint X="-1" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="77">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="1.5" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="1.5" Y="53.69" />
+            <WayPoint X="1.5" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="62">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-3.5" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-3.5" Y="35.69" />
+            <WayPoint X="-3.5" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="100">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-3.5" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-3.5" Y="64.31" />
+            <WayPoint X="-3.5" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="80">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="62.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="62.75" />
+            <WayPoint X="-73.31" Y="62.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="19">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-24.25" Y="41.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-24.25" Y="41.69" />
+            <WayPoint X="-24.25" Y="-58.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="54">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="50.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="50.25" />
+            <WayPoint X="-73.31" Y="50.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="39">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-24.25" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-24.25" Y="53.69" />
+            <WayPoint X="-24.25" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="72">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-5.69" Y="27.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-5.69" Y="27.75" />
+            <WayPoint X="94.31" Y="27.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="6">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="4" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="4" Y="35.69" />
+            <WayPoint X="4" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="93">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="14" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="14" Y="53.69" />
+            <WayPoint X="14" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="31">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-6" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-6" Y="53.69" />
+            <WayPoint X="-6" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="13">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="8.69" Y="72.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="8.69" Y="72.25" />
+            <WayPoint X="-91.31" Y="72.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="49">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-6" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-6" Y="64.31" />
+            <WayPoint X="-6" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="82">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="11.5" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="11.5" Y="46.31" />
+            <WayPoint X="11.5" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="67">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-6" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-6" Y="35.69" />
+            <WayPoint X="-6" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="129">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="65.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="65.25" />
+            <WayPoint X="-73.31" Y="65.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="41">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-11" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-11" Y="53.69" />
+            <WayPoint X="-11" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="59">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-3.5" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-3.5" Y="46.31" />
+            <WayPoint X="-3.5" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="44">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-8.5" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-8.5" Y="46.31" />
+            <WayPoint X="-8.5" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="77">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="30.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="30.25" />
+            <WayPoint X="-73.31" Y="30.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="15">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="6.5" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="6.5" Y="53.69" />
+            <WayPoint X="6.5" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="99">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-11.69" Y="27.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-11.69" Y="27.75" />
+            <WayPoint X="88.31" Y="27.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="36">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-1" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-1" Y="46.31" />
+            <WayPoint X="-1" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="69">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="1.5" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="1.5" Y="64.31" />
+            <WayPoint X="1.5" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="54">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-3.31" Y="72.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-3.31" Y="72.25" />
+            <WayPoint X="-103.31" Y="72.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="90">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-24.25" Y="47.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-24.25" Y="47.69" />
+            <WayPoint X="-24.25" Y="-52.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="72">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="11.5" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="11.5" Y="53.69" />
+            <WayPoint X="11.5" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="5">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-1" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-1" Y="35.69" />
+            <WayPoint X="-1" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="46">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="42.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="42.75" />
+            <WayPoint X="-73.31" Y="42.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="30">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="2.69" Y="72.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="2.69" Y="72.25" />
+            <WayPoint X="-97.31" Y="72.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="64">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="47.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="47.75" />
+            <WayPoint X="-73.31" Y="47.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="101">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="40.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="40.25" />
+            <WayPoint X="-73.31" Y="40.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="82">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="9" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="9" Y="64.31" />
+            <WayPoint X="9" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="22">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="27.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="27.75" />
+            <WayPoint X="-73.31" Y="27.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="129">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="6.31" Y="27.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="6.31" Y="27.75" />
+            <WayPoint X="106.31" Y="27.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="40">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="14" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="14" Y="64.31" />
+            <WayPoint X="14" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="74">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-11" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-11" Y="35.69" />
+            <WayPoint X="-11" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="59">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-24.25" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-24.25" Y="35.69" />
+            <WayPoint X="-24.25" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="96">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="4" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="4" Y="46.31" />
+            <WayPoint X="4" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="32">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-1" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-1" Y="64.31" />
+            <WayPoint X="-1" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="15">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="20.69" Y="72.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="20.69" Y="72.25" />
+            <WayPoint X="-79.31" Y="72.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="50">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="1.5" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="1.5" Y="46.31" />
+            <WayPoint X="1.5" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="35">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="11.5" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="11.5" Y="35.69" />
+            <WayPoint X="11.5" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="69">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="52.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="52.75" />
+            <WayPoint X="-73.31" Y="52.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="2">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-8.5" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-8.5" Y="53.69" />
+            <WayPoint X="-8.5" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="90">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="32.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="32.75" />
+            <WayPoint X="-73.31" Y="32.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="27">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="37.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="37.75" />
+            <WayPoint X="-73.31" Y="37.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="61">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="9" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="9" Y="46.31" />
+            <WayPoint X="9" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="45">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="6.5" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="6.5" Y="46.31" />
+            <WayPoint X="6.5" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="79">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="4" Y="53.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="4" Y="53.69" />
+            <WayPoint X="4" Y="-46.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="63">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="14.69" Y="72.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="14.69" Y="72.25" />
+            <WayPoint X="-85.31" Y="72.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="101">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="14" Y="35.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="14" Y="35.69" />
+            <WayPoint X="14" Y="-64.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="37">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="14" Y="46.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="14" Y="46.31" />
+            <WayPoint X="14" Y="146.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="22">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="35.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="35.25" />
+            <WayPoint X="-73.31" Y="35.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="55">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-24.25" Y="29.69" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-24.25" Y="29.69" />
+            <WayPoint X="-24.25" Y="-70.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="92">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="11.5" Y="64.31" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="11.5" Y="64.31" />
+            <WayPoint X="11.5" Y="164.31" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="73">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="45.25" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="45.25" />
+            <WayPoint X="-73.31" Y="45.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="9">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-17.69" Y="27.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-17.69" Y="27.75" />
+            <WayPoint X="82.31" Y="27.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="96">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="26.69" Y="57.75" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="26.69" Y="57.75" />
+            <WayPoint X="-73.31" Y="57.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+  </TrafficObjects>
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="xParkingHelper.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="AutoParking.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" SoftRT="false" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>

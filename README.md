@@ -60,6 +60,7 @@
     - [AEB](./Algorithm/AEB)
     - [ACC](./Algorithm/ACC)
     - [LKA](./Algorithm/LKA)
+    - [APA](./Algorithm/APA)
 - 交通
   - [CutIn](./Traffic/CutIn)
   - [十字路口红绿灯](./Traffic/CrossroadTrafficLight)

@@ -1,0 +1,204 @@
+<World readonly="false">
+  <Field link="">
+    <Blocks>
+      <Block link="ParkingArea-Vertical" X="0" Y="0" Z="0" Rotate="0" />
+    </Blocks>
+    <Arcs>
+      <Arc Edge="2000,2001" Type="TwoLane" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+    </Arcs>
+  </Field>
+  <Net Seed="0" Style="City" link="SimpleParkingArea\SimpleParkingArea.net.xml" Elevation="true">
+    <Lanes>
+      <Lane id="1002_0" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1006_0" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1005_0" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1003_0" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1007_0" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1006_1" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1005_1" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1001_1" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1001_0" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1000_1" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+      <Lane id="1000_0" FrictionCoefficient="0.8" Cracks="0.1" Texture="Asphalt" Wetness="0" SnowPack="0" Dirtiness="0.3" Opacity="1" />
+    </Lanes>
+    <LaneLines>
+      <LaneLine id="1002_0" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1002_0" Direction="Left" Type="SingleWhite" />
+      <LaneLine id="1006_0" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1005_0" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1003_0" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1003_0" Direction="Left" Type="SingleWhite" />
+      <LaneLine id="1007_0" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1007_0" Direction="Left" Type="SingleWhite" />
+      <LaneLine id="1006_1" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1006_1" Direction="Left" Type="None" />
+      <LaneLine id="1005_1" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1005_1" Direction="Left" Type="None" />
+      <LaneLine id="1001_1" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1001_1" Direction="Left" Type="None" />
+      <LaneLine id="1001_0" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1000_1" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1000_1" Direction="Left" Type="None" />
+      <LaneLine id="1000_0" Direction="Right" Type="SingleWhite" />
+      <LaneLine id="1003_0" Direction="Right" Type="SingleWhite" To="1002_0" Shape="26,39,0 26,25,0" />
+      <LaneLine id="1001_0" Direction="Right" Type="SingleWhite" To="1001_0" Shape="16,35,0 17.32,35.13,0 17.88,35.3,0 18.38,35.53,0 18.81,35.83,0 19.17,36.19,0 19.47,36.62,0 19.7,37.12,0 19.87,37.68,0 19.97,38.31,0 20,39,0" />
+      <LaneLine id="1001_0" Direction="Right" Type="SingleWhite" To="1004_0" Shape="-17,38,0 -16.9,37.01,0 -16.78,36.49,0 -16.6,36.21,0 -16.38,35.89,0 -16.11,35.62,0 -15.79,35.4,0 -15.41,35.22,0 -14.99,35.1,0 -14.52,35.02,0 -14,35,0" />
+      <LaneLine id="1005_0" Direction="Right" Type="SingleWhite" To="1000_0" Shape="-14,29,0 -23,29,0 -23,38,0" />
+      <LaneLine id="1002_0" Direction="Right" Type="SingleWhite" To="1003_0" Shape="26.01,56,0 26,44,0" />
+      <LaneLine id="1004_0" Direction="Right" Type="SingleWhite" To="1007_0" Shape="17.01,53,0 18,53.1,0 18.42,53.22,0 18.79,53.4,0 19.11,53.62,0 19.38,53.89,0 19.6,54.21,0 19.78,54.58,0 19.9,55,0 19.98,55.48,0 20,55.99,0" />
+      <LaneLine id="1008_0" Direction="Right" Type="SingleWhite" To="1001_0" Shape="20,44,0 19.9,44.99,0 19.78,45.41,0 19.6,45.79,0 19.38,46.11,0 19.11,46.38,0 18.79,46.6,0 18.42,46.78,0 18,46.9,0 17.53,46.98,0 17.01,47,0" />
+      <LaneLine id="1003_0" Direction="Right" Type="SingleWhite" To="1009_0" Shape="17,71,0 26,71,0 26,62,0" />
+      <LaneLine id="1000_0" Direction="Right" Type="SingleWhite" To="1004_0" Shape="20,62,0 19.9,62.99,0 19.78,63.41,0 19.6,63.79,0 19.38,64.11,0 19.11,64.38,0 18.79,64.6,0 18.41,64.78,0 17.99,64.9,0 17.52,64.98,0 17,65,0" />
+      <LaneLine id="1008_0" Direction="Right" Type="SingleWhite" To="1000_0" Shape="-14,65,0 -14.99,64.9,0 -15.41,64.78,0 -15.79,64.6,0 -16.11,64.38,0 -16.38,64.11,0 -16.6,63.79,0 -16.78,63.41,0 -16.9,62.99,0 -16.98,62.52,0 -17,62,0" />
+      <LaneLine id="1007_0" Direction="Right" Type="SingleWhite" To="1008_0" Shape="-17,56,0 -16.9,55.01,0 -16.78,54.59,0 -16.6,54.21,0 -16.38,53.89,0 -16.1,53.62,0 -15.78,53.4,0 -15.41,53.22,0 -14.99,53.1,0 -14.51,53.02,0 -13.99,53,0" />
+      <LaneLine id="1004_0" Direction="Right" Type="SingleWhite" To="1008_0" Shape="-13.99,47,0 -14.99,46.9,0 -15.41,46.78,0 -15.78,46.6,0 -16.1,46.38,0 -16.38,46.11,0 -16.6,45.79,0 -16.78,45.41,0 -16.9,44.99,0 -16.98,44.52,0 -17,44,0" />
+      <LaneLine id="1006_0" Direction="Right" Type="SingleWhite" To="1005_0" Shape="-23,44,0 -23,56,0" />
+      <LaneLine id="1018_0" Direction="Right" Type="SingleWhite" To="1005_0" Shape="26,13,0 26.21,11.02,0 26.48,10.17,0 26.85,9.43,0 27.32,8.79,0 27.9,8.24,0 28.59,7.79,0 29.39,7.45,0 30.28,7.2,0 31.29,7.05,0 32.4,7,0" />
+      <LaneLine id="1000_0" Direction="Right" Type="SingleWhite" To="1019_0" Shape="11.6,7,0 13.72,7.2,0 14.61,7.45,0 15.41,7.79,0 16.1,8.24,0 16.68,8.79,0 17.15,9.43,0 17.52,10.17,0 17.79,11.02,0 17.95,11.96,0 18,13,0" />
+      <LaneLine id="1018_1" Direction="Right" Type="SingleWhite" To="1019_1" Shape="32.4,0,0 11.6,0,0" />
+      <LaneLine id="1013_0" Direction="Right" Type="SingleWhite" To="1001_0" Shape="18,25,0 17.87,26.32,0 17.7,26.88,0 17.47,27.38,0 17.17,27.81,0 16.81,28.17,0 16.38,28.47,0 15.88,28.7,0 15.32,28.87,0 14.69,28.97,0 14,29,0" />
+    </LaneLines>
+    <Junctions>
+    </Junctions>
+  </Net>
+  <Facilities>
+    <TrafficSigns>
+      <TrafficSign X="45" Y="7.4" Yaw="90" type="152" Edge="1018" Z="0" Pitch="0" Roll="0" />
+    </TrafficSigns>
+    <TrafficLights>
+      <TrafficLight X="22.35" Y="18.191" Yaw="0" type="15" Edge="1001" Timer="False" Z="0" Pitch="0" Roll="0">
+        <Light Direction="S" Phase="G30" />
+      </TrafficLight>
+      <TrafficLight X="21.743" Y="19.827" Yaw="-180" type="15" Edge="1005" Timer="False" Z="0" Pitch="0" Roll="0">
+        <Light Direction="S" Phase="G30" />
+      </TrafficLight>
+    </TrafficLights>
+    <Crosswalks>
+    </Crosswalks>
+    <Marks>
+      <Mark type="24" X="22" Y="11" Z="0" Yaw="-180" Pitch="0" Length="3" Width="8" />
+      <Mark type="26" X="15" Y="26" Z="0" Yaw="0" Pitch="0" Length="3.6" Width="3.6" />
+    </Marks>
+    <ParkingSpots>
+      <ParkingSpot type="4" X="26" Y="72.25" Z="0" Yaw="270" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="On" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="14" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="14" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-24.25" Y="35" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-23" Y="27.75" Z="0" Yaw="90" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="14" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="14" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="27.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-17" Y="27.75" Z="0" Yaw="90" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-11" Y="27.75" Z="0" Yaw="90" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-5.00000000000001" Y="27.75" Z="0" Yaw="90" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="0.999999999999997" Y="27.75" Z="0" Yaw="90" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="7" Y="27.75" Z="0" Yaw="90" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-24.25" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-24.25" Y="47" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-24.25" Y="53" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-24.25" Y="59" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="11.5" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="9.00000000000001" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="6.5" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="3.99999999999998" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="1.5" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-1" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-3.5" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-6" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-8.49999999999999" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-11" Y="59" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="11.5" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="9.00000000000001" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="6.5" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="3.99999999999998" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="1.5" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-1" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-3.5" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-6" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-8.49999999999999" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-11" Y="59" Z="0" Yaw="-180" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="11.5" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="9" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="6.5" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="4" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="1.5" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-1.00000000000001" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-3.49999999999999" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-6" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-8.5" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-11" Y="41" Z="0" Yaw="180" Line="Full" Arrow="true" BarType="None" LockType="None" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="11.5" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="9" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="6.5" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="4" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="1.5" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-1.00000000000001" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-3.49999999999999" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-6" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-8.5" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-11" Y="41" Z="0" Yaw="0" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="30.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="32.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="35.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="37.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="40.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="42.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="45.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="47.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="50.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="52.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="55.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="57.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="60.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="62.75" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="32" Y="65.25" Z="0" Yaw="-90" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="Off" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="20" Y="72.25" Z="0" Yaw="270" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="On" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="14" Y="72.25" Z="0" Yaw="270" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="On" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="7.99999999999999" Y="72.25" Z="0" Yaw="270" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="On" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="1.99999999999999" Y="72.25" Z="0" Yaw="270" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="On" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+      <ParkingSpot type="4" X="-3.99999999999998" Y="72.25" Z="0" Yaw="270" Line="Full" Arrow="true" BarType="RubberCurb" LockType="Triangle" LockStatus="On" Opacity="1" Length="6" Width="2.5" Angle="90" Color="White" Permit="None" />
+    </ParkingSpots>
+    <Obstacles>
+      <Obstacle type="1" X="16" Y="30.25" Yaw="-270" Z="0" Pitch="0" Roll="0" />
+      <Obstacle type="1" X="16" Y="33.5" Yaw="-270" Z="0" Pitch="0" Roll="0" />
+      <Obstacle type="1" X="19.75" Y="13" Yaw="0" Z="0" Pitch="0" Roll="0" />
+      <Obstacle type="1" X="24.25" Y="13" Yaw="0" Z="0" Pitch="0" Roll="0" />
+    </Obstacles>
+    <RSUs>
+    </RSUs>
+    <Isolators>
+      <Isolator Width="7.5" Category="Flowerbed" X="30" Y="66.75" Yaw="270" Length="8.5" type="9" Height="1" Z="0" />
+      <Isolator Width="1.5" Category="Flowerbed" X="33" Y="66.75" Yaw="90" Length="40.6" type="9" Height="1" Z="0" />
+      <Isolator Width="0.2" Category="Wall" X="34" Y="75.5" Yaw="90" Length="51.5" type="7" Height="2.8" Z="0" />
+      <Isolator Width="1.5" Category="Flowerbed" X="26.25" Y="74.5" Yaw="180" Length="36.5" type="9" Height="1" Z="0" />
+      <Isolator Width="4" Category="Flowerbed" X="-10.25" Y="73.25" Yaw="180" Length="17" type="9" Height="1" Z="0" />
+      <Isolator Width="1.5" Category="Flowerbed" X="-26.5" Y="71.25" Yaw="90" Length="42.25" type="9" Height="1" Z="0" />
+      <Isolator Width="2.6" Category="Flowerbed" X="-24.5" Y="71.25" Yaw="90" Length="12" type="9" Height="1" Z="0" />
+      <Isolator Width="4" Category="Flowerbed" X="-25.25" Y="29" Yaw="90" Length="4.8" type="9" Height="1" Z="0" />
+      <Isolator Width="2" Category="Flowerbed" X="-23.25" Y="25.2" Yaw="0" Length="36" type="9" Height="1" Z="0" />
+      <Isolator Width="0.2" Category="Fence" X="-27.5" Y="24" Yaw="0" Length="45.5" type="13" Height="2.8" Z="0" />
+      <Isolator Width="0.2" Category="Wall" X="34" Y="75.5" Yaw="360" Length="-61.5" type="7" Height="2.8" Z="0" />
+      <Isolator Width="0.2" Category="Wall" X="-27.5" Y="75.5" Yaw="90" Length="51.5" type="7" Height="2.8" Z="0" />
+      <Isolator Width="2" Category="Flowerbed" X="26.25" Y="25.2" Yaw="0.62" Length="7.5" type="9" Height="1" Z="0" />
+      <Isolator Width="0.2" Category="Fence" X="34" Y="24" Yaw="180" Length="8" type="13" Height="2.8" Z="0" />
+      <Isolator Width="3" Category="Flowerbed" X="-14" Y="64.5" Yaw="90" Length="11" type="9" Height="0.3" Z="0" />
+      <Isolator Width="3" Category="Flowerbed" X="17" Y="64.5" Yaw="90" Length="11" type="9" Height="0.3" Z="0" />
+      <Isolator Width="3" Category="Flowerbed" X="17" Y="46.5" Yaw="90" Length="10.5" type="9" Height="0.3" Z="0" />
+      <Isolator Width="3" Category="Flowerbed" X="-14" Y="46.5" Yaw="90" Length="11" type="9" Height="0.3" Z="0" />
+    </Isolators>
+    <Ceilings>
+      <Ceiling Width="51.5" type="10" Length="61.5" Height="0" X="-27.5" Y="49.75" Z="0" Yaw="0" FloorTexture="Cement" />
+    </Ceilings>
+    <Interchanges>
+    </Interchanges>
+  </Facilities>
+  <Environment Type="Sunny">
+    <Air Temperature="25" Pressure="1" Humidity="60" />
+    <Precipitation Type="None" ParticleSize="0.5" ParticleCapacity="5000" FallingAlpha="5" FallingBeta="5" FallingSpeed="0.8" />
+    <Fog Visibility="5000" />
+  </Environment>
+  <Lighting Alpha="50" Beta="30" Intensity="100000" Ambient="400" StreetLight="off" VehicleLight="off" SkyBox="Day" />
+  <Traffic Seed="0" Density="3" CarWeight="10" VanWeight="3" BusWeight="1" OtherWeight="0.1" CautiousDriverWeight="2" CommonDriverWeight="10" RadicalDriverWeight="1">
+    <Plugin link="CityTraffic.py" TrafficLight="True" Crosswalk="True" TollBarrier="True" StopSign="True" Yield2Pedestrian="True" BusStop="True" LeftTurnWaitingZone="True" HighwayExit="True" ExtraLane="True" Sidewalk="True" NonMotorVehicle="True" />
+  </Traffic>
+</World>
