@@ -16,6 +16,8 @@
 
 ### 2.3 复制文件到本地对应目录
 
+### 2.4 重新启动PanoExp
+
 ## 3. 运行实验
 ![image](docs/images/open.jpg)
 

@@ -20,6 +20,8 @@ PanoSim通常运行在**实时模式**(`Pacing:1`)，即：在约定时间内必
 
 ### 2.3 复制文件到本地对应目录
 
+### 2.4 重新启动PanoExp
+
 ## 3. 运行实验
 ![image](docs/images/open.jpg)
 
