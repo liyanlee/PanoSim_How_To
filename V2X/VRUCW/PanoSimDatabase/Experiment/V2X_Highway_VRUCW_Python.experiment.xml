@@ -1,0 +1,85 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="Highway" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_V2X" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="366.84" Y="-1.6" type="Road" Lane="gneE0_2" />
+        <KeyPoint X="926.19" Y="-1.6" type="Road" Lane="gneE0_2" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="366.84" Y="-1.6" />
+        <WayPoint X="926.19" Y="-1.6" />
+      </WayPoints>
+      <Edges>
+        <Edge id="gneE0" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="30" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects>
+    <TrafficObject type="Vehicle" shape="14">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="false" Z="0">
+          <KeyPoints>
+            <KeyPoint X="448.24" Y="-4.95" type="Road" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="448.24" Y="-4.95" />
+            <WayPoint X="548.24" Y="-4.95" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="0" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Pedestrian" shape="11">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="false" Z="0">
+          <KeyPoints>
+            <KeyPoint X="452.74" Y="-11.81" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="452.74" Y="-11.81" />
+            <WayPoint X="452.74" Y="88.19" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="3" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Vehicle" shape="8">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="false" Z="0">
+          <KeyPoints>
+            <KeyPoint X="448.25" Y="-7.4" type="Road" Lane="gneE0_0" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="448.25" Y="-7.4" />
+            <WayPoint X="548.25" Y="-7.4" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="0" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+  </TrafficObjects>
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="VRUCW_Python_V2X.py" Parameters="" Parameter="False" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="18" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
