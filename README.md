@@ -4,85 +4,85 @@
 这里是[PanoSim自动驾驶仿真平台]应用实例集。
 
 ## 目录
-- 动力学
+- 动力学(dynamics)
   - [蛇形工况](#todo)
   - [鱼钩工况](#todo)
   - [双移线工况](#todo)
-- 主车控制信号
-  - [驾驶员控制信号](./EgoControl/driver_signal)
-  - [算法控制信号](./EgoControl/algorithm)
-  - [期望速度控制信号](./EgoControl/expect_speed)
-  - [期望轨迹控制信号](./EgoControl/expect_trajectory)
-  - [加速度控制信号](./EgoControl/acceleration)
-  - [前轮转角控制信号](./EgoControl/front_wheel_angle)
-- 使用传感器
-  - 感知器
-    - [车道线感知器](./Sensor/Perception/LaneInfoPerception)
-    - [目标感知器](./Sensor/Perception/ObjectPerception)
-    - [交通灯感知器](./Sensor/Perception/TrafficLightPerception)
-    - [深度图感知器](./Sensor/Perception/DepthmapPerception)
-    - [分割图感知器](./Sensor/Perception/SegmentationPerception)
-    - [停车位感知器](./Sensor/Perception/ParkingLotsPerception)
-    - [自由行驶区域感知器](./Sensor/Perception/FreeSpacePerception)
-  - 相机
-    - [单目相机传感器](./Sensor/Camera/MonoCamera)
-    - [鱼眼相机传感器](./Sensor/Camera/FisheyeCamera)
-  - 毫米波雷达
-    - [毫米波雷达传感器](./Sensor/Radar/Radar)
-    - [高精度毫米波雷达传感器](./Sensor/Radar/RadarHIFI)
-  - 激光雷达
-    - [机械式点云级激光雷达传感器](./Sensor/Lidar/SurroundLidarPointCloud)
-    - [固态激光雷达传感器](./Sensor/Lidar/SolidStateLidarPointCloud)
-  - 超声波雷达
-    - [超声波雷达传感器](./Sensor/Ultrasonic/Ultrasonic)
-    - [高精度超声波雷达传感器](./Sensor/Ultrasonic/UltrasonicHIFI)
-  - 全球导航卫星系统
-    - [全球导航卫星系统](./Sensor/GNSS/GNSS)
-    - [高精度全球导航卫星系统](./Sensor/GNSS/GNSSHIFI)
+- 主车控制信号(ego control signal)
+  - [驾驶员控制信号(driver signal)](./EgoControl/driver_signal)
+  - [算法控制信号(algorithm control signal)](./EgoControl/algorithm)
+  - [期望速度控制信号(expect speed control signal)](./EgoControl/expect_speed)
+  - [期望轨迹控制信号(expect trajectory control signal)](./EgoControl/expect_trajectory)
+  - [加速度控制信号(acceleration control signal)](./EgoControl/acceleration)
+  - [前轮转角控制信号(front wheel angle control signal)](./EgoControl/front_wheel_angle)
+- 使用传感器(using sensor)
+  - 感知器(perceptron)
+    - [车道线感知器(lane information perception)](./Sensor/Perception/LaneInfoPerception)
+    - [目标感知器(object perception)](./Sensor/Perception/ObjectPerception)
+    - [交通灯感知器(traffic light perception)](./Sensor/Perception/TrafficLightPerception)
+    - [深度图感知器(depth map perception)](./Sensor/Perception/DepthmapPerception)
+    - [分割图感知器(segmentation graph perception)](./Sensor/Perception/SegmentationPerception)
+    - [停车位感知器(parking lots perception)](./Sensor/Perception/ParkingLotsPerception)
+    - [自由行驶区域感知器(free space perception)](./Sensor/Perception/FreeSpacePerception)
+  - 相机(camera)
+    - [单目相机传感器(mono camera)](./Sensor/Camera/MonoCamera)
+    - [鱼眼相机传感器(fisheye camera)](./Sensor/Camera/FisheyeCamera)
+  - 毫米波雷达(radar)
+    - [毫米波雷达传感器(radar)](./Sensor/Radar/Radar)
+    - [高精度毫米波雷达传感器(HIFI radar)](./Sensor/Radar/RadarHIFI)
+  - 激光雷达(lidar)
+    - [机械式点云级激光雷达传感器(surround lidar point cloud)](./Sensor/Lidar/SurroundLidarPointCloud)
+    - [固态激光雷达传感器(solid state lidar point cloud)](./Sensor/Lidar/SolidStateLidarPointCloud)
+  - 超声波雷达(ultrasonic)
+    - [超声波雷达传感器(ultrasonic)](./Sensor/Ultrasonic/Ultrasonic)
+    - [高精度超声波雷达传感器(HIFI ultrasonic)](./Sensor/Ultrasonic/UltrasonicHIFI)
+  - 全球导航卫星系统(gnss)
+    - [全球导航卫星系统(gnss)](./Sensor/GNSS/GNSS)
+    - [高精度全球导航卫星系统(HIFI gnss)](./Sensor/GNSS/GNSSHIFI)
   - IMU
-    - [IMU传感器](./Sensor/IMU)
+    - [IMU传感器(imu)](./Sensor/IMU)
   - User-defined
-    - [事件相机传感器](./Sensor/User-defined/EventCamera)
-- 总线
-  - 获取数据
-    - [主车位姿、速度](./Bus/ego)
-    - [交通参与物类型、外形、位姿、速度](./Bus/traffic)
-    - [交通灯的方向、颜色、倒计时](./Bus/traffic_light)
-    - [主车所在车道、前方交叉口、SL坐标系位置](./Bus/ego_traffic)
-    - [主车信号(油门、刹车、方向盘等)](./Bus/ego_driver)
-    - [交通标志](./Bus/traffic_sign)
-  - 设置数据
-    - [告警信息](./Bus/warning)
-    - [交通参与物高亮](./Bus/traffic_object_highlight)
-    - [动态天气光照](./Bus/weather)
-    - [车灯控制](./Bus/vehicle_light)
-- 算法
+    - [事件相机传感器(event camera)](./Sensor/User-defined/EventCamera)
+- 总线(bus)
+  - 获取数据(get data)
+    - [主车位姿、速度(ego: pose, speed)](./Bus/ego)
+    - [交通参与物类型、外形、位姿、速度(traffic object: type, shape, pose, speed)](./Bus/traffic)
+    - [交通灯的方向、颜色、倒计时(traffic light: direction, color, timer)](./Bus/traffic_light)
+    - [主车所在车道、前方交叉口、SL坐标系位置(ego: lane, in front of junction, SL)](./Bus/ego_traffic)
+    - [主车信号-油门、刹车、方向盘等(ego: throttle,brake,steer,mode,gear)](./Bus/ego_driver)
+    - [交通标志(traffic sign)](./Bus/traffic_sign)
+  - 设置数据(set data)
+    - [告警信息(warning information)](./Bus/warning)
+    - [交通参与物高亮(highlight traffic object)](./Bus/traffic_object_highlight)
+    - [动态天气光照(weather)](./Bus/weather)
+    - [车灯控制(vehicle light)](./Bus/vehicle_light)
+- 算法(algorithm)
     - [AEB](./Algorithm/AEB)
     - [ACC](./Algorithm/ACC)
     - [LKA](./Algorithm/LKA)
     - [APA](./Algorithm/APA)
-- 交通
+- 交通(traffic)
   - [CutIn](./Traffic/CutIn)
-  - [十字路口红绿灯](./Traffic/CrossroadTrafficLight)
-- 定制插件
-  - 同步阻塞运行模式
-    - [同步保存图像](./Customize/SyncCaptureImage)
-  - 传感器
-    - [定位器](./Customize/Location)
-    - [目标感知器](./Customize/ObjectPerception)
-  - 评估器
-    - [碰撞评估器](./Bus/judge)
+  - [十字路口红绿灯(crossroad traffic light)](./Traffic/CrossroadTrafficLight)
+- 定制插件(customize plugin)
+  - 同步阻塞运行模式(sync and block mode)
+    - [同步保存图像(sync capture image)](./Customize/SyncCaptureImage)
+  - 传感器(sensor)
+    - [定位器(location)](./Customize/Location)
+    - [目标感知器(object perception)](./Customize/ObjectPerception)
+  - 评估器(evaluator)
+    - [碰撞评估器(collision detector)](./Bus/judge)
 - V2X
   - 一期预警实例
     - [EVW](./V2X/EVW)
-	- [VRUCW](./V2X/VRUCW)
+    - [VRUCW](./V2X/VRUCW)
   - 车辆编队
     - [编队巡航](./V2X/Platoon/Platoon1)
     - [车辆组队](./V2X/Platoon/Platoon2)
-- 联合仿真
-  - [与Apollo联合仿真](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
-  - [与Autoware联合仿真](https://github.com/wobuzhuchele/PanoSim-Autoware)
-  - [与Vissim联合仿真](https://github.com/liyanlee/PanoSim_Vissim_Bridge)
+- 联合仿真(Co-simulation)
+  - [与Apollo联合仿真(PanoSim & Apollo Co-simulation)](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
+  - [与Autoware联合仿真(PanoSim & Autoware Co-simulation)](https://github.com/wobuzhuchele/PanoSim-Autoware)
+  - [与Vissim联合仿真(PanoSim & Vissim Co-simulation)](https://github.com/liyanlee/PanoSim_Vissim_Bridge)
 
 ## 版权
 许可证遵循 [Apache License 2.0协议]. 更多细节请访问 [LICENSE](./LICENSE.txt).
