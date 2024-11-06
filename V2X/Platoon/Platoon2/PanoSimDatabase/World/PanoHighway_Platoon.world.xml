@@ -1,0 +1,469 @@
+<World readonly="false">
+  <Field link="">
+    <Blocks>
+      <Block link="Highway-RampOut-2" X="0" Y="0" Z="0" Rotate="10" />
+      <Block link="Highway-RampIn" X="192" Y="138" Z="8" Rotate="90" />
+      <Block link="Highway-RampIn-2" X="292" Y="138" Z="8" Rotate="90" />
+      <Block link="Highway-RampOut" X="-17.364817766693" Y="-98.48077530122" Z="0" Rotate="10" />
+      <Block link="Highway-RampOut" X="-125.709043906077" Y="180.57462233161" Z="8" Rotate="285.264910756219" />
+      <Block link="Highway-RampOut-2" X="-222.180927850579" Y="206.902850684435" Z="8" Rotate="285.264910756219" />
+      <Block link="Highway-RampIn-2" X="71.097060991186" Y="291.091071165388" Z="0" Rotate="197.450792145051" />
+      <Block link="Highway-RampIn" X="101.085720922088" Y="386.48855685316" Z="0" Rotate="197.450792145051" />
+      <Block link="Highway-RampOut" X="-43.039277195988" Y="-2468.36657600026" Z="0" Rotate="170" />
+      <Block link="Highway-RampOut-2" X="-25.674459429295" Y="-2566.84735130148" Z="0" Rotate="170" />
+      <Block link="Highway-RampIn-2" X="-8.30964166260208" Y="-2665.3281266027" Z="0" Rotate="350" />
+      <Block link="Highway-RampIn" X="9.05517610409095" Y="-2763.80890190392" Z="0" Rotate="350" />
+      <Block link="Highway-RampOut" X="1468.81117695662" Y="-326.069692796334" Z="8" Rotate="493.043105627956" />
+      <Block link="Highway-RampOut-2" X="1541.89521729301" Y="-394.324531805072" Z="8" Rotate="493.043105627956" />
+      <Block link="Highway-RampIn-2" X="1614.9792576294" Y="-462.579370813813" Z="8" Rotate="673.043105627956" />
+      <Block link="Highway-RampIn" X="1688.06329796579" Y="-530.834209822553" Z="8" Rotate="673.043105627956" />
+      <Block link="Highway-UnderConstruction" X="-90.303558010388" Y="-2153.71289110172" Z="0" Rotate="804.822926757878" />
+      <Block link="Highway-Tunnel" X="-108.558961753541" Y="-955.168428394443" Z="0" Rotate="273.431828494516" />
+      <Block link="Highway-Tunnel" X="-66.057312300455" Y="-443.519867791173" Z="0" Rotate="456.065264919413" />
+    </Blocks>
+    <Arcs>
+      <Arc Edge="20001,20000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="21001,21000" Type="Highway" Interchange="True" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="22001,22000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="23001,23000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="24001,24000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="25001,25000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="26001,26000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="27000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="True" />
+      <Arc Edge="28001,28000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="29001,29000" Type="Highway" Interchange="False" Tunnel="True" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="30001,30000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="31001,31000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="32001,32000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="33000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="34000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="True" />
+      <Arc Edge="35000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+      <Arc Edge="36000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="True" />
+      <Arc Edge="37000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="10" Reverse="True" />
+      <Arc Edge="38000" Type="Ramp" Interchange="True" Tunnel="False" TwistStart="10" TwistEnd="10" Reverse="True" />
+      <Arc Edge="39000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="-10" Reverse="False" />
+      <Arc Edge="40000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="10" TwistEnd="10" Reverse="True" />
+      <Arc Edge="41000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="10" Reverse="True" />
+      <Arc Edge="42000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="10" TwistEnd="10" Reverse="True" />
+      <Arc Edge="43000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="10" TwistEnd="10" Reverse="True" />
+      <Arc Edge="44000" Type="Ramp" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="-10" Reverse="False" />
+    </Arcs>
+  </Field>
+  <Net link="PanoHighway_Platoon\PanoHighway_Platoon.net.xml" Seed="0" Style="City" Elevation="true">
+    <Lanes Texture="Asphalt" FrictionCoefficient="0.8" Wetness="0" SnowPack="0" Cracks="0.1" Dirtiness="0.3" Opacity="1" />
+    <LaneLines>
+      <LaneLine id="1001_4" Direction="Left" Type="SingleWhite" To="1002_3" Via=":1003_2_2" />
+      <LaneLine id="1001_4" Direction="Right" Type="SingleWhite" To="1002_3" Via=":1003_2_2" />
+      <LaneLine id="1001_3" Direction="Right" Type="SingleWhite" To="1002_2" Via=":1003_2_1" />
+      <LaneLine id="1001_2" Direction="Right" Type="SingleWhite" To="1002_1" Via=":1003_2_0" />
+      <LaneLine id="1001_1" Direction="Left" Type="SingleWhite" To="1003_1" Via=":1003_0_1" />
+      <LaneLine id="1001_1" Direction="Right" Type="SingleWhite" To="1003_1" Via=":1003_0_1" />
+      <LaneLine id="2001_3" Direction="Left" Type="SingleWhite" To="2002_4" Via=":2003_2_2" />
+      <LaneLine id="2001_3" Direction="Right" Type="SingleWhite" To="2002_4" Via=":2003_2_2" />
+      <LaneLine id="2001_2" Direction="Right" Type="SingleWhite" To="2002_3" Via=":2003_2_1" />
+      <LaneLine id="2001_1" Direction="Right" Type="SingleWhite" To="2002_2" Via=":2003_2_0" />
+      <LaneLine id="2003_1" Direction="Left" Type="SingleWhite" To="2002_1" Via=":2003_0_1" />
+      <LaneLine id="2003_1" Direction="Right" Type="SingleWhite" To="2002_1" Via=":2003_0_1" />
+      <LaneLine id="3000_4" Direction="Left" Type="SingleWhite" To="3001_3" Via=":3001_0_3" />
+      <LaneLine id="3000_4" Direction="Right" Type="SingleWhite" To="3001_3" Via=":3001_0_3" />
+      <LaneLine id="3000_3" Direction="Right" Type="SingleWhite" To="3001_2" Via=":3001_0_2" />
+      <LaneLine id="3000_1" Direction="Right" Type="SingleWhite" To="3001_1" Via=":3001_0_0" />
+      <LaneLine id="4000_3" Direction="Left" Type="SingleWhite" To="4001_4" Via=":4002_0_3" />
+      <LaneLine id="4000_3" Direction="Right" Type="SingleWhite" To="4001_4" Via=":4002_0_3" />
+      <LaneLine id="4000_2" Direction="Right" Type="SingleWhite" To="4001_3" Via=":4002_0_2" />
+      <LaneLine id="4000_1" Direction="Right" Type="SingleWhite" To="4001_2" Via=":4002_0_1" />
+      <LaneLine id="5000_3" Direction="Left" Type="SingleWhite" To="5001_4" Via=":5002_0_3" />
+      <LaneLine id="5000_3" Direction="Right" Type="SingleWhite" To="5001_4" Via=":5002_0_3" />
+      <LaneLine id="5000_2" Direction="Right" Type="SingleWhite" To="5001_3" Via=":5002_0_2" />
+      <LaneLine id="5000_1" Direction="Right" Type="SingleWhite" To="5001_2" Via=":5002_0_1" />
+      <LaneLine id="6001_4" Direction="Left" Type="SingleWhite" To="6002_3" Via=":6003_2_2" />
+      <LaneLine id="6001_4" Direction="Right" Type="SingleWhite" To="6002_3" Via=":6003_2_2" />
+      <LaneLine id="6001_3" Direction="Right" Type="SingleWhite" To="6002_2" Via=":6003_2_1" />
+      <LaneLine id="6001_2" Direction="Right" Type="SingleWhite" To="6002_1" Via=":6003_2_0" />
+      <LaneLine id="6001_1" Direction="Left" Type="SingleWhite" To="6003_1" Via=":6003_0_1" />
+      <LaneLine id="6001_1" Direction="Right" Type="SingleWhite" To="6003_1" Via=":6003_0_1" />
+      <LaneLine id="7000_4" Direction="Left" Type="SingleWhite" To="7001_3" Via=":7001_0_3" />
+      <LaneLine id="7000_4" Direction="Right" Type="SingleWhite" To="7001_3" Via=":7001_0_3" />
+      <LaneLine id="7000_3" Direction="Right" Type="SingleWhite" To="7001_2" Via=":7001_0_2" />
+      <LaneLine id="7000_1" Direction="Right" Type="SingleWhite" To="7001_1" Via=":7001_0_0" />
+      <LaneLine id="8001_3" Direction="Left" Type="SingleWhite" To="8002_4" Via=":8003_0_2" />
+      <LaneLine id="8001_3" Direction="Right" Type="SingleWhite" To="8002_4" Via=":8003_0_2" />
+      <LaneLine id="8001_2" Direction="Right" Type="SingleWhite" To="8002_3" Via=":8003_0_1" />
+      <LaneLine id="8001_1" Direction="Right" Type="SingleWhite" To="8002_2" Via=":8003_0_0" />
+      <LaneLine id="8003_1" Direction="Left" Type="SingleWhite" To="8002_1" Via=":8003_4_1" />
+      <LaneLine id="8003_1" Direction="Right" Type="SingleWhite" To="8002_1" Via=":8003_4_1" />
+      <LaneLine id="9000_3" Direction="Left" Type="SingleWhite" To="9001_4" Via=":9002_0_3" />
+      <LaneLine id="9000_3" Direction="Right" Type="SingleWhite" To="9001_4" Via=":9002_0_3" />
+      <LaneLine id="9000_2" Direction="Right" Type="SingleWhite" To="9001_3" Via=":9002_0_2" />
+      <LaneLine id="9000_1" Direction="Right" Type="SingleWhite" To="9001_2" Via=":9002_0_1" />
+      <LaneLine id="10001_4" Direction="Left" Type="SingleWhite" To="10002_3" Via=":10003_2_2" />
+      <LaneLine id="10001_4" Direction="Right" Type="SingleWhite" To="10002_3" Via=":10003_2_2" />
+      <LaneLine id="10001_3" Direction="Right" Type="SingleWhite" To="10002_2" Via=":10003_2_1" />
+      <LaneLine id="10001_2" Direction="Right" Type="SingleWhite" To="10002_1" Via=":10003_2_0" />
+      <LaneLine id="10001_1" Direction="Left" Type="SingleWhite" To="10003_1" Via=":10003_0_1" />
+      <LaneLine id="10001_1" Direction="Right" Type="SingleWhite" To="10003_1" Via=":10003_0_1" />
+      <LaneLine id="11000_4" Direction="Left" Type="SingleWhite" To="11001_3" Via=":11001_0_3" />
+      <LaneLine id="11000_4" Direction="Right" Type="SingleWhite" To="11001_3" Via=":11001_0_3" />
+      <LaneLine id="11000_3" Direction="Right" Type="SingleWhite" To="11001_2" Via=":11001_0_2" />
+      <LaneLine id="11000_1" Direction="Right" Type="SingleWhite" To="11001_1" Via=":11001_0_0" />
+      <LaneLine id="12001_3" Direction="Left" Type="SingleWhite" To="12002_4" Via=":12003_2_2" />
+      <LaneLine id="12001_3" Direction="Right" Type="SingleWhite" To="12002_4" Via=":12003_2_2" />
+      <LaneLine id="12001_2" Direction="Right" Type="SingleWhite" To="12002_3" Via=":12003_2_1" />
+      <LaneLine id="12001_1" Direction="Right" Type="SingleWhite" To="12002_2" Via=":12003_2_0" />
+      <LaneLine id="12003_1" Direction="Left" Type="SingleWhite" To="12002_1" Via=":12003_0_1" />
+      <LaneLine id="12003_1" Direction="Right" Type="SingleWhite" To="12002_1" Via=":12003_0_1" />
+      <LaneLine id="13000_3" Direction="Left" Type="SingleWhite" To="13001_4" Via=":13002_0_3" />
+      <LaneLine id="13000_3" Direction="Right" Type="SingleWhite" To="13001_4" Via=":13002_0_3" />
+      <LaneLine id="13000_2" Direction="Right" Type="SingleWhite" To="13001_3" Via=":13002_0_2" />
+      <LaneLine id="13000_1" Direction="Right" Type="SingleWhite" To="13001_2" Via=":13002_0_1" />
+      <LaneLine id="14001_4" Direction="Left" Type="SingleWhite" To="14002_3" Via=":14003_2_2" />
+      <LaneLine id="14001_4" Direction="Right" Type="SingleWhite" To="14002_3" Via=":14003_2_2" />
+      <LaneLine id="14001_3" Direction="Right" Type="SingleWhite" To="14002_2" Via=":14003_2_1" />
+      <LaneLine id="14001_2" Direction="Right" Type="SingleWhite" To="14002_1" Via=":14003_2_0" />
+      <LaneLine id="14001_1" Direction="Left" Type="SingleWhite" To="14003_1" Via=":14003_0_1" />
+      <LaneLine id="14001_1" Direction="Right" Type="SingleWhite" To="14003_1" Via=":14003_0_1" />
+      <LaneLine id="15000_4" Direction="Left" Type="SingleWhite" To="15001_3" Via=":15001_0_3" />
+      <LaneLine id="15000_4" Direction="Right" Type="SingleWhite" To="15001_3" Via=":15001_0_3" />
+      <LaneLine id="15000_3" Direction="Right" Type="SingleWhite" To="15001_2" Via=":15001_0_2" />
+      <LaneLine id="15000_1" Direction="Right" Type="SingleWhite" To="15001_1" Via=":15001_0_0" />
+      <LaneLine id="16001_3" Direction="Left" Type="SingleWhite" To="16002_4" Via=":16003_2_2" />
+      <LaneLine id="16001_3" Direction="Right" Type="SingleWhite" To="16002_4" Via=":16003_2_2" />
+      <LaneLine id="16001_2" Direction="Right" Type="SingleWhite" To="16002_3" Via=":16003_2_1" />
+      <LaneLine id="16001_1" Direction="Right" Type="SingleWhite" To="16002_2" Via=":16003_2_0" />
+      <LaneLine id="16003_1" Direction="Left" Type="SingleWhite" To="16002_1" Via=":16003_0_1" />
+      <LaneLine id="16003_1" Direction="Right" Type="SingleWhite" To="16002_1" Via=":16003_0_1" />
+      <LaneLine id="17001_3" Direction="Right" Type="SingleWhite" To="17002_3" Via=":17003_0_3" />
+      <LaneLine id="17001_2" Direction="Right" Type="SingleWhite" To="17002_2" Via=":17003_0_2" />
+      <LaneLine id="17001_3" Direction="Left" Type="SingleWhite" To="17002_3" Via=":17003_0_3" />
+    </LaneLines>
+    <Junctions />
+  </Net>
+  <Facilities>
+    <TrafficSigns>
+      <TrafficSign X="12.183" Y="-43.781" Yaw="-170" Edge="1001" type="79" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="186.5" Y="122" Yaw="-90" Edge="2001" type="108" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="319.735" Y="118.207" Yaw="270" Edge="" type="132" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="-10.572" Y="-149.942" Yaw="-170" Edge="4000" type="78" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-73.841" Y="182.617" Yaw="105.26" Edge="5000" type="78" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="-177.467" Y="215.017" Yaw="105.26" Edge="6001" type="79" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="43.898" Y="270.568" Yaw="377.45" Edge="" type="132" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="87.471" Y="396.534" Yaw="17.45" Edge="8001" type="108" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-67.023" Y="-2422.332" Yaw="-10" Edge="9000" type="78" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-52.096" Y="-2529.874" Yaw="-10" Edge="10001" type="79" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="6.367" Y="-2634.577" Yaw="530" Edge="" type="132" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="25.767" Y="-2766.447" Yaw="170" Edge="12001" type="108" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="1421.969" Y="-303.704" Yaw="313.04" Edge="13000" type="78" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="1498.553" Y="-380.665" Yaw="313.04" Edge="14001" type="79" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="1608.219" Y="-429.183" Yaw="853.04" Edge="" type="132" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="1703.004" Y="-522.895" Yaw="493.04" Edge="16001" type="108" Z="8" Pitch="0" Roll="0" />
+      <TrafficSign X="-106.574" Y="-2143.138" Yaw="714.82" Edge="17002" type="236" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-94.683" Y="-991.063" Yaw="543.43" Edge="" type="212" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-95.281" Y="-1001.046" Yaw="543.43" Edge="" type="243" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-94.084" Y="-981.081" Yaw="543.43" Edge="" type="268" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-94.982" Y="-996.054" Yaw="543.43" Edge="" type="55" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-94.383" Y="-986.072" Yaw="543.43" Edge="" type="28" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-126.925" Y="-994.139" Yaw="363.43" Edge="" type="56" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-78.27" Y="-407.025" Yaw="726.07" Edge="" type="212" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-77.213" Y="-397.081" Yaw="726.07" Edge="" type="243" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-79.326" Y="-416.969" Yaw="726.07" Edge="" type="268" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-77.741" Y="-402.053" Yaw="726.07" Edge="" type="55" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-78.798" Y="-411.997" Yaw="726.07" Edge="" type="28" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-45.92" Y="-405.434" Yaw="546.07" Edge="" type="56" Z="0" Pitch="0" Roll="0" />
+    </TrafficSigns>
+    <Obstacles>
+      <Obstacle X="8.075" Y="-1.424" Yaw="-170" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-2.866" Y="30.968" Yaw="10" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="162" Y="129.8" Yaw="-90" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="202" Y="146.2" Yaw="90" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="292" Y="146.2" Yaw="90" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="339" Y="129.8" Yaw="-90" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="-23.704" Y="-87.209" Yaw="10" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-137.515" Y="175.297" Yaw="285.26" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="-220.022" Y="214.814" Yaw="105.26" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="-253.281" Y="206.891" Yaw="285.26" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="78.92" Y="288.632" Yaw="197.45" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="49.18" Y="248.713" Yaw="17.45" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="102.26" Y="417.567" Yaw="17.45" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="105.909" Y="374.49" Yaw="197.45" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-33.227" Y="-2476.791" Yaw="170" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-33.75" Y="-2568.271" Yaw="-10" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-12.39" Y="-2594.968" Yaw="170" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-16.385" Y="-2666.752" Yaw="350" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-8.396" Y="-2617.618" Yaw="170" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="22.34" Y="-2791.929" Yaw="170" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-0.757" Y="-2755.385" Yaw="350" type="56" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="1481.716" Y="-326.902" Yaw="493.04" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="1536.298" Y="-400.317" Yaw="313.04" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="1569.417" Y="-408.808" Yaw="493.04" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="1609.382" Y="-468.572" Yaw="673.04" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="1586.227" Y="-424.507" Yaw="493.04" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="1715.585" Y="-545.318" Yaw="493.04" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="1675.158" Y="-530.002" Yaw="673.04" type="56" Z="8" Pitch="0" Roll="0" />
+      <Obstacle X="-99.718" Y="-2149.545" Yaw="804.82" type="27" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-99.267" Y="-2154.525" Yaw="804.82" type="27" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-98.816" Y="-2159.505" Yaw="804.82" type="27" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-98.365" Y="-2164.484" Yaw="804.82" type="27" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-97.913" Y="-2169.464" Yaw="804.82" type="27" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-102.251" Y="-2143.75" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-104.333" Y="-2142.935" Yaw="804.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-99.944" Y="-2147.056" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-99.492" Y="-2152.035" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-99.041" Y="-2157.015" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-98.59" Y="-2161.994" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-98.139" Y="-2166.974" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-99.815" Y="-2170.64" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-101.717" Y="-2171.817" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-101.12" Y="-2145.154" Yaw="714.82" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-124.833" Y="-978.214" Yaw="3.43" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-125.017" Y="-979.03" Yaw="3.43" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-125.065" Y="-979.838" Yaw="3.43" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-125.114" Y="-980.646" Yaw="3.43" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-95.005" Y="-979.724" Yaw="183.43" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-95.04" Y="-980.323" Yaw="183.43" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-95.082" Y="-981.022" Yaw="183.43" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-95.142" Y="-982.02" Yaw="183.43" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-48.742" Y="-421.247" Yaw="186.07" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-48.52" Y="-420.44" Yaw="186.07" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-48.435" Y="-419.635" Yaw="186.07" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-48.349" Y="-418.83" Yaw="186.07" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-78.469" Y="-418.368" Yaw="366.07" type="5" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-78.406" Y="-417.771" Yaw="366.07" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-78.332" Y="-417.075" Yaw="366.07" type="2" Z="0" Pitch="0" Roll="0" />
+      <Obstacle X="-78.226" Y="-416.08" Yaw="366.07" type="2" Z="0" Pitch="0" Roll="0" />
+    </Obstacles>
+    <TrafficLights />
+    <Crosswalks />
+    <Marks />
+    <ParkingSpots />
+    <RSUs />
+    <Isolators>
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="1000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="1002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="2000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="2000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="2001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="2003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="2003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="2002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="2000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="2000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="3000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="3001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="3002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="3000_5" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="3002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="3002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="3002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="4002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="4000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="4001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="4002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="4002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="4002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="5002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="5000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="5001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="5002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="5002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="5002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="6000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="6002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="6003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="6003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="6000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="6001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="6002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="6000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="6000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="7000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="7001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="7002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="7000_5" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="7002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="7002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="7002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="8000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="8000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="8001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="8003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="8003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="8002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="8000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="8000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="9002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="9000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="9001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="9002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="9002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="9002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="10000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="10002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="10003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="10003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="10000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="10001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="10002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="10000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="10000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="11000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="11001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="11002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="11000_5" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="11002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="11002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="11002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="12000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="12000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="12001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="12003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="12003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="12002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="12000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="12000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="13002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="13000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="13001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="13002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="13002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="13002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="14000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="14002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="14003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="14003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="14000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="14001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="14002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="14000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="14000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="15000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="15001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="15002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="15000_5" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="15002_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="15002_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="15002_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="16000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="16000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="16001_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="16003_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="16003_2" Height="0.6" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="16002_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="16000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="16000_4" Height="0.6" Direction="Right" Gap="-2" />
+      <Isolator Width="1.5" Category="Flowerbed" type="9" Lane="17000_4" Height="1.5" Direction="Left" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="17000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="17000_4" Height="0.6" Direction="Left" Gap="1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="17000_0" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="17000_4" Height="0.6" Direction="Left" Gap="15.2" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="20000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="20000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="20001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="20000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="20001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="21000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="21000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="21001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="21000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="21001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="22000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="22000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="22001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="22000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="22001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="23000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="23000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="23001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="23000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="23001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="24000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="24000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="24001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="24000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="24001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="25000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="25000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="25001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="25000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="25001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="26000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="26000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="26001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="26000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="26001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="27000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="27000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="28000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="28000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="28001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="28000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="28001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="30000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="30000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="30001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="30000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="30001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="31000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="31000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="31001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="31000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="31001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="32000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="32000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="32001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="32000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="32001_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="33000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="33000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="34000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="34000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="35000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="35000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="36000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="36000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="37000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="37000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="38000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="38000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="39000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="39000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="40000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="40000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="41000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="41000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="42000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="42000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="43000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="43000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="44000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="44000_2" Height="0.6" Direction="Left" Gap="0.1" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Length="28" Height="1.5" X="-111.552" Y="-1005.079" Z="0" Yaw="273.43" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="28" Height="0.6" X="-110.554" Y="-1005.139" Z="0" Yaw="273.43" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="28" Height="0.6" X="-112.55" Y="-1005.019" Z="0" Yaw="273.43" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="26" Height="0.6" X="-126.825" Y="-1004.163" Z="0" Yaw="273.43" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="26" Height="0.6" X="-96.279" Y="-1005.995" Z="0" Yaw="273.43" />
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Length="28" Height="1.5" X="-60.774" Y="-393.8" Z="0" Yaw="456.07" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="28" Height="0.6" X="-61.769" Y="-393.694" Z="0" Yaw="456.07" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="28" Height="0.6" X="-59.78" Y="-393.905" Z="0" Yaw="456.07" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="26" Height="0.6" X="-45.56" Y="-395.416" Z="0" Yaw="456.07" />
+      <Isolator Width="0.2" Category="Fence" type="14" Length="26" Height="0.6" X="-75.989" Y="-392.183" Z="0" Yaw="456.07" />
+    </Isolators>
+    <Ceilings />
+    <Interchanges />
+  </Facilities>
+  <Environment Type="Sunny">
+    <Air Temperature="30" Pressure="1" Humidity="60" />
+    <Precipitation Type="None" ParticleSize="0.5" ParticleCapacity="5000" FallingAlpha="5" FallingBeta="5" FallingSpeed="0.8" />
+    <Fog Visibility="500" />
+  </Environment>
+  <Lighting Alpha="60" Beta="50" Intensity="100000" Ambient="12000" StreetLight="off" VehicleLight="off" SkyBox="Day" />
+  <Traffic Seed="0" Density="2" Pedestrian="0" CarWeight="71" VanWeight="21" BusWeight="7" OtherWeight="0.999999999999999" CautiousDriverWeight="15" CommonDriverWeight="77" RadicalDriverWeight="8">
+    <Plugin link="CityTraffic.py" TrafficLight="True" Crosswalk="True" TollBarrier="True" StopSign="True" Yield2Pedestrian="True" BusStop="True" LeftTurnWaitingZone="True" HighwayExit="True" ExtraLane="True" Sidewalk="True" NonMotorVehicle="True" />
+  </Traffic>
+</World>

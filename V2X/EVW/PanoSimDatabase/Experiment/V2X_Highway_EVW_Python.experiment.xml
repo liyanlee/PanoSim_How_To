@@ -1,0 +1,57 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="Highway" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_V2X" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="415.56" Y="-4.8" type="Road" Lane="gneE0_1" />
+        <KeyPoint X="472.3" Y="-5.18" type="Free" Lane="" />
+        <KeyPoint X="501.22" Y="-8" type="Free" Lane="gneE0_0" />
+        <KeyPoint X="798.5" Y="-8" type="Road" Lane="gneE0_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="415.56" Y="-4.8" />
+        <WayPoint X="472.3" Y="-5.18" />
+        <WayPoint X="501.22" Y="-8" />
+        <WayPoint X="798.5" Y="-8" />
+      </WayPoints>
+      <Edges>
+        <Edge id="gneE0" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="30" />
+      <SpeedTime Time="100" Speed="30" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects>
+    <TrafficObject type="Vehicle" shape="11">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="false" Z="0">
+          <KeyPoints>
+            <KeyPoint X="367.38" Y="-4.69" type="Road" Lane="" />
+            <KeyPoint X="937.6" Y="-4.8" type="Road" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="367.38" Y="-4.69" />
+            <WayPoint X="937.6" Y="-4.8" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="42" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+  </TrafficObjects>
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="EVW_Python_V2X.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="25" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
