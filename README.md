@@ -60,7 +60,7 @@
   - [AEB_Simulink](./Algorithm/AEB/AEB_Simulink)
   - [ACC_Simulink](./Algorithm/ACC/ACC_Simulink)
   - [LKA_Simulink](./Algorithm/LKA/LKA_Simulink)
-  - [APA](./Algorithm/APA)
+  - [APA_Python](./Algorithm/APA/APA_Python)
 - 交通(traffic)
   - [CutIn](./Traffic/CutIn)
   - [十字路口红绿灯(crossroad traffic light)](./Traffic/CrossroadTrafficLight)
