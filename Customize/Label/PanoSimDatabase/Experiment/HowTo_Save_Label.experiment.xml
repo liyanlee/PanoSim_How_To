@@ -1,0 +1,60 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="Obtain_Label" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="-325.17" Y="-101.75" type="Road" Lane="17001_1" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="-325.17" Y="-101.75" />
+        <WayPoint X="-225.17" Y="-101.75" />
+      </WayPoints>
+      <Edges />
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="0" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects>
+    <TrafficObject type="Vehicle" shape="4">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="false" Z="0">
+          <KeyPoints>
+            <KeyPoint X="-310.3" Y="-105.25" type="Road" Lane="17001_0" />
+            <KeyPoint X="-152.56" Y="-105.25" type="Road" Lane="15000_0" />
+            <KeyPoint X="-54.81" Y="-105.25" type="Road" Lane="14000_0" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="-310.3" Y="-105.25" />
+            <WayPoint X="-250" Y="-105.25" />
+            <WayPoint X="-250" Y="-105.25" />
+            <WayPoint X="-250" Y="-105.25" />
+            <WayPoint X="-152.56" Y="-105.25" />
+            <WayPoint X="-152.56" Y="-105.25" />
+            <WayPoint X="-150" Y="-105.25" />
+            <WayPoint X="-150" Y="-105.25" />
+            <WayPoint X="-150" Y="-105.25" />
+            <WayPoint X="-54.81" Y="-105.25" />
+            <WayPoint X="-54.81" Y="-105.25" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="10" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+  </TrafficObjects>
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="PictureOutput.py" CameraName="MonoCameraSensor.0" TimeStep="100" Position="Front" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="SavaLabel.py" CameraName="ObjectPerception.0" TimeStep="100" Position="Front" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="0.1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>

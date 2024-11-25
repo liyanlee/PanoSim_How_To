@@ -1,0 +1,4 @@
+Name,DisplayName,Type,Default,Group,Tips
+CameraName,Sensor Name,string,ObjectPerception.0,,
+TimeStep,Time Step (ms),int,100,,
+Position,Position,string,Front,,
