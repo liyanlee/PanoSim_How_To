@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def ModelStart(userData):
-    Format = 'time@i,128@[,OBJ_S_Range@d,OBJ_S_Velocity@d,OBJ_S_Azimuth@d,OBJ_S_Elevation@d, Intensity@d'
+    Format = 'time@i,128@[,OBJ_S_Range@d,OBJ_S_Velocity@d,OBJ_S_Azimuth@d,OBJ_S_Elevation@d,Intensity@d'
     userData['sensor'] = BusAccessor(userData['busId'], 'RadarHIFISensor.0', Format)
     userData['last_time'] = 0
     plt.ion()
