@@ -1,0 +1,11 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Distance="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0" link="V2X_BSM.py" Category="Wireless" hostId="0" nodeId="0" FovVertical="0" max_distance="500" averageDelay="50" deliveryRatio="1" V2X_function_ratio="1" OutputFormat="time@i,100@[,id@i,delaytime@i,x@d,y@d,z@d,yaw@d,pitch@d,roll@d,speed@d" Basic_Parameters="False" Parameter="False" GroupName="V2X.0" />
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Distance="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0" link="V2X_MAP.py" Category="Wireless" hostId="0" nodeId="0" FovVertical="0" max_distance="500" averageDelay="50" deliveryRatio="1" V2X_function_ratio="1" OutputFormat="time@i,100@[,id@i,delaytime@i" Basic_Parameters="False" Parameter="False" GroupName="V2X.0" />
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Distance="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0" link="V2X_RSI.py" Category="Wireless" hostId="0" nodeId="0" FovVertical="0" max_distance="500" averageDelay="50" deliveryRatio="1" V2X_function_ratio="1" OutputFormat="time@i,100@[,id@i,delaytime@i,x@d,y@d,z@d,yaw@d,pitch@d,roll@d,speed@d" Basic_Parameters="False" Parameter="False" GroupName="V2X.0" />
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Distance="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0" link="V2X_RSM.py" Category="Wireless" hostId="0" nodeId="0" FovVertical="0" max_distance="500" averageDelay="50" deliveryRatio="1" V2X_function_ratio="1" OutputFormat="time@i,100@[,id@i,delaytime@i,x@d,y@d,z@d,yaw@d,pitch@d,roll@d,speed@d" Basic_Parameters="False" Parameter="False" GroupName="V2X.0" />
+    <Sensor X="0" Y="0" enable="true" Yaw="0" Distance="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0" link="V2X_SPAT.py" Category="Wireless" hostId="0" nodeId="0" FovVertical="0" max_distance="500" averageDelay="50" deliveryRatio="1" V2X_function_ratio="1" OutputFormat="time@i,100@[,id@i,delaytime@i,x@d,y@d,z@d,yaw@d,pitch@d,roll@d" Basic_Parameters="False" Parameter="False" GroupName="V2X.0" />
+  </Sensors>
+</Vehicle>
