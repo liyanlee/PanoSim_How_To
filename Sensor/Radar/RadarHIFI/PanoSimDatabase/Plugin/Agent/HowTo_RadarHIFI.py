@@ -26,7 +26,7 @@ def ModelOutput(userData):
         objects = []
         for i in range(count):
             distance, velocity, azimuth, elevation, intensity= userData['sensor'].readBody(i)
-            objects.append([azimuth, distance])
+            objects.append([np.radians(azimuth), distance])
         if count > 0:
             userData['scatter'].set_offsets((objects))
         else:
