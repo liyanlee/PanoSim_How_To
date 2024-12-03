@@ -14,7 +14,6 @@ def ModelStart(userData):
     fov = np.radians(45)
     userData['ax'].set_xlim([-fov/2, fov/2])
     userData['ax'].set_ylim([0, 100])
-    userData['ax'].set_theta_direction(-1)
     userData['ax'].set_theta_offset(np.pi/2)
     userData['figure'].canvas.draw()
     userData['0'] = userData['ax'].scatter([], [], c='orange', marker='o', label='Vehicle')
