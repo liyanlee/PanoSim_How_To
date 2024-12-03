@@ -10,7 +10,6 @@
       <WayPoints>
         <WayPoint X="-30.3" Y="1.75" />
         <WayPoint X="-50" Y="1.75" />
-        <WayPoint X="-50" Y="1.75" />
         <WayPoint X="-80.46" Y="1.75" />
       </WayPoints>
       <Edges>
@@ -46,11 +45,11 @@
       <Task>
         <Trajectory Static="false" Z="0">
           <KeyPoints>
-            <KeyPoint X="-94" Y="1.75" type="Road" Lane="3000_1" />
+            <KeyPoint X="-100" Y="-1.75" type="Road" Lane="3001_1" />
           </KeyPoints>
           <WayPoints>
-            <WayPoint X="-94" Y="1.75" />
-            <WayPoint X="-194" Y="1.75" />
+            <WayPoint X="-100" Y="-1.75" />
+            <WayPoint X="0" Y="-1.75" />
           </WayPoints>
         </Trajectory>
         <SpeedTable>
@@ -63,11 +62,11 @@
       <Task>
         <Trajectory Static="false" Z="0">
           <KeyPoints>
-            <KeyPoint X="-89" Y="1.75" type="Road" Lane="3000_1" />
+            <KeyPoint X="-88" Y="5.25" type="Road" Lane="3000_0" />
           </KeyPoints>
           <WayPoints>
-            <WayPoint X="-89" Y="1.75" />
-            <WayPoint X="-189" Y="1.75" />
+            <WayPoint X="-88" Y="5.25" />
+            <WayPoint X="-188" Y="5.25" />
           </WayPoints>
         </Trajectory>
         <SpeedTable>
@@ -78,7 +77,7 @@
   </TrafficObjects>
   <Disturbance />
   <Agent>
-    <Plugin internal="false" hostId="0" nodeId="2" link="HowTo_Radar.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="1" link="HowTo_Radar.py" Parameters="" Parameter="True" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
     <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
   </Agent>
