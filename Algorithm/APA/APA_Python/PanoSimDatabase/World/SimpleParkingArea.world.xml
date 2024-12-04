@@ -197,7 +197,7 @@
     <Precipitation Type="None" ParticleSize="0.5" ParticleCapacity="5000" FallingAlpha="5" FallingBeta="5" FallingSpeed="0.8" />
     <Fog Visibility="5000" />
   </Environment>
-  <Lighting Alpha="50" Beta="30" Intensity="100000" Ambient="400" StreetLight="off" VehicleLight="off" SkyBox="Day" />
+  <Lighting Alpha="50" Beta="30" Intensity="100000" Ambient="12000" StreetLight="off" VehicleLight="off" SkyBox="Day" />
   <Traffic Seed="0" Density="3" CarWeight="10" VanWeight="3" BusWeight="1" OtherWeight="0.1" CautiousDriverWeight="2" CommonDriverWeight="10" RadicalDriverWeight="1">
     <Plugin link="CityTraffic.py" TrafficLight="True" Crosswalk="True" TollBarrier="True" StopSign="True" Yield2Pedestrian="True" BusStop="True" LeftTurnWaitingZone="True" HighwayExit="True" ExtraLane="True" Sidewalk="True" NonMotorVehicle="True" />
   </Traffic>
