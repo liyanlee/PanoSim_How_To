@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 def ModelStart(userData):
-    Format = 'time@i,128@[,OBJ_S_Range@d,OBJ_S_Velocity@d,OBJ_S_Azimuth@d,OBJ_S_Elevation@d'
+    Format = 'time@i,128@[,OBJ_S_Range@d,OBJ_S_Velocity@d,OBJ_S_Azimuth@d,OBJ_S_Elevation@d,Intensity@d'
     userData['sensor'] = BusAccessor(userData['busId'], 'RadarHIFISensor.0', Format)
     userData['last_time'] = 0
     plt.ion()
@@ -14,7 +14,6 @@ def ModelStart(userData):
     fov = np.radians(18)
     userData['ax'].set_xlim([-fov/2, fov/2])
     userData['ax'].set_ylim([0, 100])
-    userData['ax'].set_theta_direction(-1)
     userData['ax'].set_theta_offset(np.pi/2)
     userData['figure'].canvas.draw()
     userData['scatter'] = userData['ax'].scatter([], [])
@@ -25,8 +24,8 @@ def ModelOutput(userData):
         userData['last_time'] = timestamp
         objects = []
         for i in range(count):
-            distance, _, azimuth, _ = userData['sensor'].readBody(i)
-            objects.append([azimuth, distance])
+            distance, velocity, azimuth, elevation, intensity= userData['sensor'].readBody(i)
+            objects.append([np.radians(azimuth), distance])
         if count > 0:
             userData['scatter'].set_offsets((objects))
         else:

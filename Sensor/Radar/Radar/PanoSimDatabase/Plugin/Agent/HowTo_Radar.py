@@ -11,10 +11,9 @@ def ModelStart(userData):
     userData['figure'].canvas.set_window_title('PanoSim HowTo Sensor: Radar')
     userData['ax'] = userData['figure'].add_subplot(projection='polar')
     plt.title('Sensor: Radar')
-    fov = np.radians(18)
+    fov = np.radians(45)
     userData['ax'].set_xlim([-fov/2, fov/2])
     userData['ax'].set_ylim([0, 100])
-    userData['ax'].set_theta_direction(-1)
     userData['ax'].set_theta_offset(np.pi/2)
     userData['figure'].canvas.draw()
     userData['0'] = userData['ax'].scatter([], [], c='orange', marker='o', label='Vehicle')
@@ -29,7 +28,7 @@ def ModelOutput(userData):
         objects = {0:[], 1:[], 2:[], 3:[]}
         for i in range(count):
             _, type, azimuth, _, _, distance, _ = userData['sensor'].readBody(i)
-            objects[type].append([azimuth, distance])
+            objects[type].append([np.radians(azimuth), distance])
         for key in objects.keys():
             if len(objects[key]) > 0:
                 userData[str(key)].set_offsets((objects[key]))
