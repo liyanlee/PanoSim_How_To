@@ -1,0 +1,4 @@
+Name,DisplayName,Type,Default,Group,Tips
+CameraName,Camera Name,string,MonoCameraSensor.0,,
+TimeStep,Time Step (ms),int,100,,
+Position,Position,string,Front,,

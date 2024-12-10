@@ -70,6 +70,7 @@
   - 传感器(sensor)
     - [定位器(location)](./Customize/Location)
     - [目标感知器(object perception)](./Customize/ObjectPerception)
+    - [自动化标注(label)](./Customize/Label)    
   - 评估器(evaluator)
     - [碰撞评估器(collision detector)](./Bus/judge)
 - V2X
