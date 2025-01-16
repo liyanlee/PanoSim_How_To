@@ -51,7 +51,7 @@ python D:/PanoSim5_v33/PanoSim5_release/Bin/SchedulerNode/ExternalNode.py
 7. 在Unity3D窗口暂定实验运行, **状态**变化为"Paused"
 8. 在Unity3D窗口恢复实验运行, 继续输出主车简单位姿信息
 9. 在Unity3D窗口停止实验运行, **状态**变化为"Stop"
-10. 关闭Unity3D窗口退出使用运行, **状态**变化为"Unknown"
+10. 关闭Unity3D窗口退出实验运行, **状态**变化为"Unknown"
 11. 外部调度器退出运行
 
 外部调度器的运行结果如下图所示: 
