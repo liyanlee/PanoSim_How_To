@@ -108,13 +108,14 @@
   - [与Apollo联合仿真(PanoSim & Apollo Co-simulation)](https://github.com/liyanlee/PanoSim_Apollo_Bridge)
   - [与Autoware联合仿真(PanoSim & Autoware Co-simulation)](https://github.com/wobuzhuchele/PanoSim-Autoware)
   - [与Vissim联合仿真(PanoSim & Vissim Co-simulation)](https://github.com/liyanlee/PanoSim_Vissim_Bridge)
-- 六、定制插件(customize plugin)
+- 六、定制(customization)
   - 6.1 同步阻塞运行模式(sync and block mode)
     - [同步保存图像(sync capture image)](./Customize/SyncCaptureImage)
   - 6.2 定制传感器(sensor)
     - [定位器(location)](./Customize/Location)
     - [目标感知器(object perception)](./Customize/ObjectPerception)
-
+  - 6.3 定制外部调度器(external node)
+    - [外部调度器(external node)](./Customize/ExternalNode)
 
 
 ## 版权
