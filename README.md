@@ -116,6 +116,8 @@
     - [目标感知器(object perception)](./Customize/ObjectPerception)
   - 6.3 定制外部调度器(external node)
     - [外部调度器(external node)](./Customize/ExternalNode)
+  - 6.4 定制外部启动器(external starter)
+    - [外部调度器(external starter)](./Customize/ExternalStarter)
 
 
 ## 版权
