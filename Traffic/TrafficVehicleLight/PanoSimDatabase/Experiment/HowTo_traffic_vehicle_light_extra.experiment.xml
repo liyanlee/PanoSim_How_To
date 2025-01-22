@@ -1,0 +1,62 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="traffic_vehicle_light_extra" traffic="true" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="-24.3" Y="5.25" type="Road" Lane="1007_0" />
+        <KeyPoint X="-135.25" Y="5.25" type="Road" Lane="3000_0" />
+        <KeyPoint X="-183.81" Y="5.25" type="Road" Lane="4004_0" />
+        <KeyPoint X="-231.4" Y="5.25" type="Road" Lane="4002_0" />
+        <KeyPoint X="-322.27" Y="5.25" type="Road" Lane="5001_0" />
+        <KeyPoint X="-368.36" Y="7.55" type="Road" Lane="12003_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="-24.3" Y="5.25" />
+        <WayPoint X="-50" Y="5.25" />
+        <WayPoint X="-50" Y="5.25" />
+        <WayPoint X="-135.25" Y="5.25" />
+        <WayPoint X="-150" Y="5.25" />
+        <WayPoint X="-150" Y="5.25" />
+        <WayPoint X="-183.81" Y="5.25" />
+        <WayPoint X="-199.87" Y="5.25" />
+        <WayPoint X="-223.38" Y="5.25" />
+        <WayPoint X="-231.4" Y="5.25" />
+        <WayPoint X="-250" Y="5.25" />
+        <WayPoint X="-250" Y="5.25" />
+        <WayPoint X="-322.27" Y="5.25" />
+        <WayPoint X="-349.85" Y="5.25" />
+        <WayPoint X="-349.85" Y="5.25" />
+        <WayPoint X="-351.63" Y="5.27" />
+        <WayPoint X="-353.48" Y="5.34" />
+        <WayPoint X="-356.31" Y="5.53" />
+        <WayPoint X="-359.11" Y="5.82" />
+        <WayPoint X="-361.89" Y="6.21" />
+        <WayPoint X="-364.68" Y="6.72" />
+        <WayPoint X="-366.46" Y="7.09" />
+        <WayPoint X="-368.36" Y="7.55" />
+      </WayPoints>
+      <Edges>
+        <Edge id="1007" Direction="S" />
+        <Edge id="3000" Direction="S" />
+        <Edge id="4004" Direction="S" />
+        <Edge id="4002" Direction="S" />
+        <Edge id="5001" Direction="S" />
+        <Edge id="12003" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="10.8" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="20" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" SoftRT="false" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>

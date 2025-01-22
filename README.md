@@ -54,6 +54,7 @@
   - 1.4 创建交通场景(create traffic scenario)
     - [CutIn](./Traffic/CutIn)
     - [十字路口红绿灯(crossroad traffic light)](./Traffic/CrossroadTrafficLight)
+    - [交通车灯(traffic vehicle light)](./Traffic/TrafficVehicleLight/)
   - 1.5 可视化
     - [告警信息(warning information)](./Bus/warning)
     - [交通参与物高亮(highlight traffic object)](./Bus/traffic_object_highlight)
