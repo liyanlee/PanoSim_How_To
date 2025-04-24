@@ -5,7 +5,7 @@
 ### 1.1 下载[文件](./PanoSimDatabase)
 
 ### 1.2 查询本地对应目录
-![image](../../../Bus/ego/docs/images/folder.jpg)
+![image](../../Bus/ego/docs/images/folder.jpg)
 
 ### 1.3 复制文件到本地对应目录
 
