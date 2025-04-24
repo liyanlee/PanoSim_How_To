@@ -1,0 +1,69 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="Straighteway" traffic="false" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_Headlamp" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="10.38" Y="25" type="Road" Lane="1001_1" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="10.38" Y="25" />
+        <WayPoint X="10.38" Y="125" />
+      </WayPoints>
+      <Edges>
+        <Edge id="1001" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="0" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects>
+    <TrafficObject type="Vehicle" shape="30">
+      <Trigger type="Time" value="0" />
+      <Task>
+        <Trajectory Static="true" Z="0">
+          <KeyPoints>
+            <KeyPoint X="2.88" Y="92.75" type="Road" Lane="1001_3" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="2.88" Y="92.75" />
+            <WayPoint X="2.88" Y="192.75" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="0" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+    <TrafficObject type="Pedestrian" shape="12">
+      <Trigger type="Time" value="12" />
+      <Task>
+        <Trajectory Static="false" Z="0">
+          <KeyPoints>
+            <KeyPoint X="13.75" Y="38.02" type="Road" Lane="1001_0" />
+            <KeyPoint X="1.58" Y="38.18" type="Free" Lane="" />
+          </KeyPoints>
+          <WayPoints>
+            <WayPoint X="13.75" Y="38.02" />
+            <WayPoint X="1.58" Y="38.18" />
+          </WayPoints>
+        </Trajectory>
+        <SpeedTable>
+          <SpeedTime Time="0" Speed="3" />
+        </SpeedTable>
+      </Task>
+    </TrafficObject>
+  </TrafficObjects>
+  <Disturbance />
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="HowTo_Headlamp.py" Parameters="" Parameter="False" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="LuxMeter.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" SoftRT="false" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
