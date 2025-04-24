@@ -1,4 +1,4 @@
-# PanoSim ARHUD
+# PanoSim Headlamp
 
 ## 1. 安装部署
 
@@ -15,10 +15,10 @@
 ![image](docs/images/open.jpg)
 
 
-## 3. ARHUD可视化
+## 3. Headlamp可视化
 
 ### 3.1 可视化实现源码
-[%PanoSimDatabaseHome%/Plugin/Agent/HowTo_ARHUD.py](PanoSimDatabase/Plugin/Agent/HowTo_Headlamp.py)
+[%PanoSimDatabaseHome%/Plugin/Agent/HowTo_Head.py](PanoSimDatabase/Plugin/Agent/HowTo_Headlamp.py)
 
 ### 3.2 可视化运行
 ![image](docs/images/visualization_1.jpg)
