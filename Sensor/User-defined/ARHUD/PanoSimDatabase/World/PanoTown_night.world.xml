@@ -1,0 +1,119 @@
+<World readonly="false">
+  <Field link="">
+    <Blocks>
+      <Block link="Crossroad-TwoLane" X="0" Y="0" Z="0" Rotate="0" />
+      <Block link="Straight-Road-TwoLane" X="100" Y="0" Z="0" Rotate="0" />
+      <Block link="Straight-Road-TwoLane" X="-100" Y="0" Z="0" Rotate="0" />
+      <Block link="T-Junction-CurveLeft" X="-200" Y="0" Z="0" Rotate="90" />
+      <Block link="Straight-Road-TwoLane" X="-300" Y="0" Z="0" Rotate="180" />
+      <Block link="Straight-Road-TwoLane" X="-400" Y="100" Z="0" Rotate="270" />
+      <Block link="Straight-Road-TwoLane" X="-200" Y="100" Z="0" Rotate="90" />
+      <Block link="T-Junction-TwoLane" X="199.999999999997" Y="0" Z="0" Rotate="90" />
+      <Block link="Curved-Road-TwoLane" X="-400" Y="200" Z="0" Rotate="360" />
+      <Block link="Curved-Road-TwoLane" X="-200" Y="200" Z="0" Rotate="90" />
+      <Block link="Straight-Road-TwoLane" X="-300" Y="200" Z="0" Rotate="360" />
+      <Block link="T-Junction-CurveLeft" X="-400" Y="0" Z="0" Rotate="180" />
+      <Block link="T-Junction-CurveLeft" X="0" Y="-100" Z="0" Rotate="90" />
+      <Block link="Straight-Road-TwoLane" X="-100" Y="-100" Z="0" Rotate="180" />
+      <Block link="Straight-Road-TwoLane" X="-200" Y="-100" Z="0" Rotate="180" />
+      <Block link="Curved-Road-TwoLane" X="-400" Y="-100" Z="0" Rotate="270" />
+      <Block link="Straight-Road-TwoLane" X="-300" Y="-100" Z="0" Rotate="360" />
+      <Block link="T-Junction-TwoLaneWithSingle" X="0" Y="100" Z="0" Rotate="270" />
+      <Block link="T-Junction-TwoLaneWithSingle" X="199.999999999997" Y="100" Z="0" Rotate="90" />
+      <Block link="Curved-Road-TwoLane" X="199.999999999997" Y="-100" Z="0" Rotate="180" />
+      <Block link="Straight-Road-TwoLane" X="100" Y="-100" Z="0" Rotate="180" />
+      <Block link="Curved-Road-TwoLane" X="0" Y="200" Z="0" Rotate="360" />
+      <Block link="Curved-Road-TwoLane" X="199.999999999997" Y="200" Z="0" Rotate="90" />
+      <Block link="Straight-Road-TwoLane" X="100" Y="200" Z="0" Rotate="360" />
+    </Blocks>
+    <Arcs>
+      <Arc Edge="25000,25001" Type="SingleLane" Interchange="False" Tunnel="False" />
+    </Arcs>
+  </Field>
+  <Net link="PanoTown_night\PanoTown_night.net.xml" Seed="0" Style="City" Elevation="true">
+    <Lanes Texture="Asphalt" FrictionCoefficient="0.8" Wetness="0" SnowPack="0" Cracks="0.1" Dirtiness="0.3" Opacity="1" />
+    <LaneLines>
+      <LaneLine id="18001_0" Direction="Right" Type="SingleWhite" To="18005_0" Shape="-7,92.5,0 -7.00000000000001,107.5,0" />
+      <LaneLine id="19001_0" Direction="Right" Type="SingleWhite" To="19005_0" Shape="206.999999999997,107.5,0 206.999999999997,92.5,0" />
+    </LaneLines>
+    <Junctions />
+  </Net>
+  <Facilities>
+    <TrafficSigns>
+      <TrafficSign X="8" Y="20" Yaw="180" Edge="" type="343" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-20" Y="8" Yaw="90" Edge="" type="343" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="20" Y="-8" Yaw="270" Edge="" type="343" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-8" Y="-20" Yaw="0" Edge="" type="343" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="8" Y="-35" Yaw="180" Edge="" type="342" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="35" Y="8" Yaw="90" Edge="" type="342" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-35" Y="-8" Yaw="270" Edge="" type="342" Z="0" Pitch="0" Roll="0" />
+      <TrafficSign X="-8" Y="35" Yaw="0" Edge="" type="342" Z="0" Pitch="0" Roll="0" />
+    </TrafficSigns>
+    <Obstacles />
+    <TrafficLights>
+      <TrafficLight X="-16.4" Y="8.2" Yaw="-270" type="1" Edge="1000" Timer="True" Z="0" Pitch="0" Roll="0">
+        <Light Direction="S" Phase="R30G27Y3" />
+      </TrafficLight>
+      <TrafficLight X="8.4" Y="16.5" Yaw="-180" type="1" Edge="1002" Timer="True" Z="0" Pitch="0" Roll="0">
+        <Light Direction="S" Phase="G27Y3R30" />
+      </TrafficLight>
+      <TrafficLight X="16.3" Y="-8.3" Yaw="-90" type="1" Edge="1003" Timer="True" Z="0" Pitch="0" Roll="0">
+        <Light Direction="S" Phase="R30G27Y3" />
+      </TrafficLight>
+      <TrafficLight X="-8.3" Y="-16.3" Yaw="0" type="1" Edge="1001" Timer="True" Z="0" Pitch="0" Roll="0">
+        <Light Direction="S" Phase="G27Y3R30" />
+      </TrafficLight>
+    </TrafficLights>
+    <Crosswalks>
+      <Crosswalk type="3" X="12.5" Y="7.2" Z="0" Yaw="-180" Length="14.2" Width="3.2">
+        <TrafficLight type="2" X="12.5" Y="9.1" Z="0" Yaw="0" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="G27R33" />
+        </TrafficLight>
+        <TrafficLight type="2" X="12.5" Y="-9.1" Z="0" Yaw="180" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="G27R33" />
+        </TrafficLight>
+      </Crosswalk>
+      <Crosswalk type="3" X="-7.6" Y="12.5" Z="0" Yaw="-90" Length="14.6" Width="3.2">
+        <TrafficLight type="2" X="-9.6" Y="12.5" Z="0" Yaw="-90" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="R30G27R3" />
+        </TrafficLight>
+        <TrafficLight type="2" X="9.3" Y="12.5" Z="0" Yaw="90" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="R30G27R3" />
+        </TrafficLight>
+      </Crosswalk>
+      <Crosswalk type="3" X="-12.4" Y="7.32" Z="0" Yaw="-180" Length="14.2" Width="3.2">
+        <TrafficLight type="2" X="-12.4" Y="8.7" Z="0" Yaw="0" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="G27R33" />
+        </TrafficLight>
+        <TrafficLight type="2" X="-12.4" Y="-9.2" Z="0" Yaw="180" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="G27R33" />
+        </TrafficLight>
+      </Crosswalk>
+      <Crosswalk type="3" X="-7.25" Y="-12.5" Z="0" Yaw="-90" Length="14.2" Width="3.2">
+        <TrafficLight type="2" X="-9.1" Y="-12.5" Z="0" Yaw="-90" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="R30G27R3" />
+        </TrafficLight>
+        <TrafficLight type="2" X="9" Y="-12.5" Z="0" Yaw="90" Pitch="0" Roll="0" Edge="" Timer="True">
+          <Light Direction="S" Phase="R30G27R3" />
+        </TrafficLight>
+      </Crosswalk>
+    </Crosswalks>
+    <Marks />
+    <ParkingSpots />
+    <RSUs>
+      <RSU type="6" X="9.5" Y="9" Z="0" Yaw="0" Range="200" FOV="360" Coverage="200" Junction="1000" />
+    </RSUs>
+    <Isolators />
+    <Ceilings />
+    <Interchanges />
+  </Facilities>
+  <Environment Type="Night">
+    <Air Temperature="5" Pressure="1" Humidity="60" />
+    <Precipitation Type="None" ParticleSize="0.5" ParticleCapacity="5000" FallingAlpha="5" FallingBeta="5" FallingSpeed="0.8" />
+    <Fog Visibility="490" />
+  </Environment>
+  <Lighting Alpha="0" Beta="0" Intensity="0.001" Ambient="1" StreetLight="on" VehicleLight="on" SkyBox="Night" />
+  <Traffic Seed="0" Density="5" Pedestrian="2" CarWeight="71" VanWeight="21" BusWeight="7" OtherWeight="0.999999999999999" CautiousDriverWeight="15" CommonDriverWeight="77" RadicalDriverWeight="8">
+    <Plugin link="CityTraffic.py" TrafficLight="True" Crosswalk="True" TollBarrier="True" StopSign="True" Yield2Pedestrian="True" BusStop="True" LeftTurnWaitingZone="True" HighwayExit="True" ExtraLane="True" Sidewalk="True" NonMotorVehicle="True" />
+  </Traffic>
+</World>

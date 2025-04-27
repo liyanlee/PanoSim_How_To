@@ -40,6 +40,8 @@
       - [IMU传感器(imu)](./Sensor/IMU)
     - 1.2.8 User-defined
       - [事件相机传感器(event camera)](./Sensor/User-defined/EventCamera)
+	  - [智能车灯(Headlamp)](./Sensor/User-defined/Headlamp)
+	  - [ARHUD(ARHUD)](./Sensor/User-defined/ARHUD)
   - 1.3 访问总线(access bus) 
     - 1.3.1 获取数据(get data)
       - [主车位姿、速度(ego: pose, speed)](./Bus/ego)

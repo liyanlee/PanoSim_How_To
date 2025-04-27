@@ -1,0 +1,51 @@
+<World readonly="false">
+  <Field link="">
+    <Blocks />
+    <Arcs>
+      <Arc Edge="1001,1000" Type="Highway" Interchange="False" Tunnel="False" TwistStart="0" TwistEnd="0" Reverse="False" />
+    </Arcs>
+  </Field>
+  <Net link="Straightway\Straightway.net.xml" Seed="0" Style="City" Elevation="true">
+    <Lanes Texture="Asphalt" FrictionCoefficient="0.8" Wetness="0" SnowPack="0" Cracks="0" Dirtiness="0.3" Opacity="1" />
+    <LaneLines />
+    <Junctions />
+  </Net>
+  <Facilities>
+    <TrafficSigns />
+    <Obstacles>
+      <Obstacle type="2" X="12" Y="55" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="6" Y="55" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="9" Y="85" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="12" Y="105" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="12" Y="85" Z="0" Yaw="0" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="6" Y="105" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="9" Y="125" Z="0" Yaw="0" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="12" Y="155" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="6" Y="155" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+      <Obstacle type="2" X="9" Y="155" Z="0" Yaw="-180" Pitch="0" Roll="0" />
+    </Obstacles>
+    <TrafficLights />
+    <Crosswalks />
+    <Marks />
+    <ParkingSpots />
+    <RSUs />
+    <Isolators>
+      <Isolator Width="1.6" Category="Flowerbed" type="9" Lane="1000_4" Height="1.5" Direction="Right" Gap="-1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1000_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1001_4" Height="0.6" Direction="Right" Gap="0" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1000_0" Height="0.6" Direction="Right" Gap="0.1" />
+      <Isolator Width="0.2" Category="Fence" type="14" Lane="1001_0" Height="0.6" Direction="Right" Gap="0.1" />
+    </Isolators>
+    <Ceilings />
+    <Interchanges />
+  </Facilities>
+  <Environment Type="Customized">
+    <Air Temperature="5" Pressure="1" Humidity="60" />
+    <Precipitation Type="None" ParticleSize="0.5" ParticleCapacity="5000" FallingAlpha="5" FallingBeta="5" FallingSpeed="0.8" />
+    <Fog Visibility="500" />
+  </Environment>
+  <Lighting Alpha="0" Beta="0" Intensity="0.01" Ambient="1" StreetLight="off" VehicleLight="off" SkyBox="Night" />
+  <Traffic Seed="0" Density="3" Pedestrian="0" CarWeight="71" VanWeight="21" BusWeight="7" OtherWeight="0.999999999999999" CautiousDriverWeight="15" CommonDriverWeight="77" RadicalDriverWeight="8">
+    <Plugin link="CityTraffic.py" TrafficLight="True" Crosswalk="True" TollBarrier="True" StopSign="True" Yield2Pedestrian="True" BusStop="True" LeftTurnWaitingZone="True" HighwayExit="True" ExtraLane="True" Sidewalk="True" NonMotorVehicle="True" />
+  </Traffic>
+</World>

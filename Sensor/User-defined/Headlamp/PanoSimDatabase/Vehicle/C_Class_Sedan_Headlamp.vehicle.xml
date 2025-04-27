@@ -1,0 +1,13 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="0.8" Y="-0.622" enable="true" Yaw="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0.87" link="ADB/ADB.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="ADB" Distance="1000" Segments="18" IES="IES\for HB 1 or ADB\Right" Parameter="True" />
+    <Sensor X="0.8" Y="0.622" enable="true" Yaw="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0.87" link="ADB/ADB.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="ADB" Distance="1000" Segments="18" IES="IES\for HB 1 or ADB\Left" Parameter="True" />
+    <Sensor X="0.8" Y="-0.622" enable="true" Yaw="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0.87" link="LowBeam/LowBeam.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="LowBeam" Distance="1000" IES="IES\LB Flat_C V E\LB Flat-Right.ies" Parameter="True" />
+    <Sensor X="0.8" Y="0.622" enable="true" Yaw="0" FovHorizontal="0" Pitch="0" Roll="0" Z="0.87" link="LowBeam/LowBeam.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="LowBeam" Distance="1000" IES="IES\LB Flat_C V E\LB Flat-Left.ies" Parameter="True" />
+    <Sensor X="1.2" Y="0" enable="true" Yaw="0" Pitch="0" Roll="0" Z="2" link="LuxMeter/LuxMeter.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="LuxMeter" Distance="300" FovHorizontal="90" resolutionwidth="1200" resolutionheight="1200" Frequency="30" c1="0" c2="0" c3="1" Camera_Type="False" Pixel-Based_Output="True" resolution="True" Attenuation="True" />
+    <Sensor X="0.8" Y="-0.622" enable="true" Yaw="0" FovHorizontal="0" Pitch="-1.2" Roll="0" Z="0.87" link="ProjectionLight/ProjectionLight.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="ProjectionLight" Distance="1000" width="320" height="80" maximumIntensity="87500" HBIES="IES\HB 1\HB_1_MicroLED.ies" LBIES="IES\AFS C mode\MicroLED_right.ies" Parameter="True" />
+    <Sensor X="0.8" Y="0.622" enable="true" Yaw="0" FovHorizontal="0" Pitch="-1.2" Roll="0" Z="0.87" link="ProjectionLight/ProjectionLight.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="ProjectionLight" Distance="1000" width="320" height="80" maximumIntensity="87500" HBIES="IES\HB 1\HB_1_MicroLED.ies" LBIES="IES\AFS C mode\MicroLED_left.ies" Parameter="True" />
+  </Sensors>
+</Vehicle>

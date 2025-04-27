@@ -1,0 +1,8 @@
+<Vehicle readonly="false">
+  <Shape id="67" />
+  <Dynamics link="Vehicle_d1fa67c3-2480-432c-9efe-27469d76c07e.par" type="PanoSim-Raw" />
+  <Sensors>
+    <Sensor X="-0.024" Y="0" enable="true" Yaw="0" Pitch="0" Roll="0" Z="1" link="ObjectPerception/ObjectPerception.json" Category="Object_Perception" hostId="0" nodeId="0" Distance="100" FovHorizontal="60" FovVertical="40" resolutionwidth="1280" resolutionheight="720" Type="Object" OutputFormat="Timestamp@i,64@[,OBJ_ID@i,OBJ_Class@b,OBJ_X@d,OBJ_Y@d,OBJ_Z@d,OBJ_Velocity@d,OBJ_Length@d,OBJ_Width@d,OBJ_Height@d" Parameters="True" Parameter="False" />
+    <Sensor X="0.65" Y="0.42" enable="true" Yaw="0" Distance="0" FovHorizontal="0" Pitch="0" Roll="0" Z="1.115" link="ARHUD/ARHUD.json" Category="User_defined" hostId="0" nodeId="0" FovVertical="0" Type="ARHUD" width="57" height="19" distance="2.1" eyeOffset="-0.02" Parameter="True" />
+  </Sensors>
+</Vehicle>
