@@ -1,0 +1,34 @@
+<Experiment readonly="false" description="" groupId="0" mode="normal">
+  <World link="PanoTown_CHPVP" traffic="true" hostId="0" nodeId="0" />
+  <Vehicle link="C_Class_Sedan_V2X" hostId="0" nodeId="0" type="PanoSim-Raw" />
+  <Task>
+    <Trajectory Z="0">
+      <KeyPoints>
+        <KeyPoint X="-92.28" Y="-94.75" type="Road" Lane="14001_0" />
+      </KeyPoints>
+      <WayPoints>
+        <WayPoint X="-92.28" Y="-94.75" />
+        <WayPoint X="-192.28" Y="-94.75" />
+      </WayPoints>
+      <Edges>
+        <Edge id="14001" Direction="S" />
+      </Edges>
+    </Trajectory>
+    <SpeedTable>
+      <SpeedTime Time="0" Speed="0" />
+    </SpeedTable>
+    <ParkingSpot enable="False" Number="0" />
+  </Task>
+  <TrafficObjects />
+  <Disturbance>
+    <Plugin link="Change_trafficLight_status.py" hostId="0" nodeId="0" Parameters="" Parameter="True" />
+  </Disturbance>
+  <Agent>
+    <Plugin internal="false" hostId="0" nodeId="0" link="Show_scenario_msg_CHPVP1.py" Parameters="" Parameter="True" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver_trajectoryPlanner.py" />
+    <Plugin internal="false" hostId="0" nodeId="0" link="xDriver.dll" />
+  </Agent>
+  <Evaluator />
+  <Simulation Solver="ode1" Step="0.001" StopTime="0" Speed="1" UtcTime="0" MultiAgentMode="None" ServerIP="127.0.0.1" ServerPort="1018" SoftRT="false" />
+  <GlobalVariables Variable0="0" Variable1="0" Variable2="0" Variable3="0" Variable4="0" Variable5="0" Variable6="0" Variable7="0" Variable8="0" Variable9="0" />
+</Experiment>
