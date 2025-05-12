@@ -25,7 +25,7 @@ def ModelOutput(userData):
         Warning(userData, 2, 'Change trafficlight status')
     if userData['time'] / 1000 > 7.0 :
         Warning(userData, 2, 'Shorten Red light time')
-    if userData['time'] / 1000 > 9.0 :
+    if userData['time'] / 1000 > 13.0 :
         Warning(userData, 2, 'Fire truck pass')
     if userData['time'] / 1000 > 17 :
         Warning(userData, 0, ' ')
