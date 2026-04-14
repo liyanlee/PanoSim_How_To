@@ -1,0 +1,2 @@
+Name,DisplayName,DisplayName_CN,Type,Default,Group,Tips
+show_graph,Show Graph,显示图表,TRUE/FALSE,TRUE,,

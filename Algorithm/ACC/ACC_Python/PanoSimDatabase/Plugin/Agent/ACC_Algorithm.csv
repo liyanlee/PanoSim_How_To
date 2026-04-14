@@ -1,0 +1,3 @@
+Name,DisplayName,DisplayName_CN,Type,Default,Group,Tips
+show_graph,Show Graph,显示图表,TRUE/FALSE,TRUE,,
+v_setpoint,Target Speed,设定车速,int,40,,

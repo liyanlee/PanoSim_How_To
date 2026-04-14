@@ -86,8 +86,11 @@
   - 3.1 单车智能(automotive intelligence)
     - 3.1.1 ADAS
       - [AEB_Simulink](./Algorithm/AEB/AEB_Simulink)
+      - [AEB_Python](./Algorithm/AEB/AEB_Python)
       - [ACC_Simulink](./Algorithm/ACC/ACC_Simulink)
+      - [ACC_Python](./Algorithm/ACC/ACC_Python)
       - [LKA_Simulink](./Algorithm/LKA/LKA_Simulink)
+      - [LKA_Python](./Algorithm/LKA/LKA_Python)
       - [APA_Python](./Algorithm/APA/APA_Python)
     - 3.1.2 AD
       - [端到端闭环仿真](#todo)
